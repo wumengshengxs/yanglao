@@ -1,0 +1,53 @@
+{include file="public/head"/}
+<body class="gray-bg">
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="ibox float-e-margins">
+                <div class="ibox-content">
+                    <form class="form-horizontal">
+                        <div class="form-group">
+                            <div>
+                                <div class="input-group">
+                                    <span class="input-group-btn">
+                                        <button type="button" class="btn btn-primary" id="file">
+                                            <i class="fa fa-cloud-upload"></i> &nbsp;上传文件
+                                        </button>
+                                        <input class="layui-upload-file" type="file" accept="undefined" name="file"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 data-show">
+
+        </div>
+    </div>
+</div>
+</body>
+{include file="public/foot"/}
+<script type="text/javascript" src=""></script>
+<script type="text/javascript">
+    /**
+     * 上传excel文件
+     * */
+    layui.use('upload', function(){
+        var upload = layui.upload;
+        //执行实例
+        var uploadInst = upload.render({
+            elem: '#file', //绑定元素
+            url: '/index/Test/getExcelData', //上传接口
+            accept: 'file', //普通文件
+            method: 'post',
+            done: function(res){
+                $('.data-show').text(res);
+            },
+            error: function(){
+                //请求异常回调
+            }
+        });
+    });
+</script>
+</html>

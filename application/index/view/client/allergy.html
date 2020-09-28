@@ -1,0 +1,65 @@
+{include file='public/head'/}
+<link rel="stylesheet" href="__PUBLIC__css/client.css">
+<body class="gray-bg">
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="ibox float-e-margins">
+        <div class="ibox-title">
+            <h5>
+                <small>服务对象管理&nbsp;>&nbsp;健康档案&nbsp;>&nbsp;药物过敏史</small>
+                <a href="javascript:history.back(-1);" title="返回上一页"><i class="fa fa-reply"></i></a>
+            </h5>
+        </div>
+        <div class="ibox-content c-allergy">
+            <div class="col-sm-12 nav-tabs-client">
+                <div class="col-sm-4">
+                    <img src="{$user.head|default='/public/static/img/head.jpg'}" alt="">&nbsp;&nbsp;
+                    <span>{$user.name}</span>
+                </div>
+                <div class="col-sm-8">
+                    <ul class="nav nav-tabs"></ul>
+                </div>
+            </div>
+            <div class="col-sm-12">
+                <div class="col-sm-12">
+                    <ul class="nav nav-tabs nav-tabs-healthy"></ul>
+                </div>
+            </div>
+            <div class="col-sm-12 m-t">
+                <form class="form-horizontal">
+                    <div class="form-group">
+                        <label class="col-sm-1 control-label">已添加过敏药物</label>
+                        <div class="col-sm-6">
+                            {volist name='allergy' id='a'}
+                            <span><strong>{$a.medicine}</strong> <a href="javascript:;">X</a></span>
+                            {/volist}
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-1 control-label">其他过敏药</label>
+                        <div class="col-sm-3">
+                            <div class="input-group m-b">
+                                <input type="text" class="form-control">
+                                <a class="input-group-addon"><i class="fa fa-plus"></i> 添加</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-1 control-label"></label>
+                        <div class="col-sm-6">
+                            <button class="btn btn-primary active">保存</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
+</body>
+{include file='public/foot'/}
+<script type="text/javascript" src="__PUBLIC__js/client.js"></script>
+<script type="text/javascript">
+    var $userId = '<?php echo $userId; ?>',
+        $allergyInfo = '<?php echo json_encode($allergy); ?>';
+</script>
+</html>

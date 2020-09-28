@@ -1,0 +1,86 @@
+{include file='public/head'/}
+<link rel="stylesheet" href="__PUBLIC__css/client.css">
+<body class="gray-bg">
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="ibox float-e-margins">
+        <div class="ibox-title">
+            <h5>
+                <small>服务对象管理&nbsp;>&nbsp;健康档案&nbsp;>&nbsp;体检记录</small>
+                <a href="javascript:history.back(-1);" title="返回上一页"><i class="fa fa-reply"></i></a>
+            </h5>
+        </div>
+        <div class="ibox-content c-physical">
+            <div class="col-sm-12 nav-tabs-client">
+                <div class="col-sm-4">
+                    <img src="{$user.head|default='/public/static/img/head.jpg'}" alt="">&nbsp;&nbsp;
+                    <span>{$user.name}</span>
+                </div>
+                <div class="col-sm-8">
+                    <ul class="nav nav-tabs"></ul>
+                </div>
+            </div>
+            <div class="col-sm-12">
+                <div class="col-sm-12">
+                    <ul class="nav nav-tabs nav-tabs-healthy"></ul>
+                </div>
+            </div>
+            <div class="col-sm-12">
+                <div class="ibox-title">
+                    <h5>
+                        <button class="btn btn-white btn-sm a-physical"><i class="fa fa-plus"></i> 添加体检记录</button>
+                    </h5>
+                </div>
+                <div class="row row-lg">
+                    <div class="col-sm-12">
+                        <div class="table-responsive">
+                            <table class="table table-striped table-bordered table-hover">
+                                <thead>
+                                <tr>
+                                    <th>序号</th>
+                                    <th>机构名称</th>
+                                    <th>体检时间</th>
+                                    <th>照片数量</th>
+                                    <th>备注</th>
+                                    <th>操作</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                {volist name='physical.data' id='p' key='k'}
+                                <tr>
+                                    <td>{$k}</td>
+                                    <td>{$p.institution}</td>
+                                    <td>{$p.physical_time}</td>
+                                    <td>
+                                        {if condition="$p['image_count'] neq 0"}
+                                        <a href="javascript:;" onclick="viewImage(this)" data-image='{$p.image|json_encode}' title="点击查看图片">{$p.image_count}</a>
+                                        {else/}
+                                        {$p.image_count}
+                                        {/if}
+                                    </td>
+                                    <td>{$p.remarks}</td>
+                                    <td>
+                                        <a href="javascript:;" class="e-physical" title="编辑"><i class="fa fa-edit"></i></a>&nbsp;&nbsp;
+                                        <a href="javascript:;" class="d-physical" title="删除"><i class="fa fa-trash-o"></i></a>
+                                    </td>
+                                </tr>
+                                {/volist}
+                                </tbody>
+                            </table>
+                            <div class="page">{$page} <div>{$physical.last_page}页，总共{$physical.total}条数据</div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
+</body>
+{include file='public/foot'/}
+<script type="text/javascript" src="__PUBLIC__js/upload.js"></script>
+<script type="text/javascript" src="__PUBLIC__js/client.js"></script>
+<script type="text/javascript">
+    var $userId = '<?php echo $userId; ?>',
+        $physicalList = '<?php echo json_encode($physical["data"]); ?>';
+</script>
+</html>

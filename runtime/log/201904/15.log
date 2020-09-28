@@ -1,0 +1,1541 @@
+---------------------------------------------------------------
+[ 2019-04-15T08:42:05+08:00 ] 127.0.0.1 GET yunchi.cn/
+[运行时间：0.039845s] [吞吐率：25.10req/s] [内存消耗：1,907.49kb] [文件加载：101]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yunchi.cn',
+  'connection' => 'keep-alive',
+  'purpose' => 'prefetch',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-15T08:42:05+08:00 ] 127.0.0.1 GET yunchi.cn/index/Login/login
+[运行时间：0.015373s] [吞吐率：65.05req/s] [内存消耗：1,910.77kb] [文件加载：100]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yunchi.cn',
+  'connection' => 'keep-alive',
+  'purpose' => 'prefetch',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=d4d53abdf05405c0f36aa39a292d0970',
+)
+[ info ] [ PARAM ] array (
+  '/index/Login/login' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Login->login[ /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/controller/Login.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/view/login/login.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-15T08:42:06+08:00 ] 127.0.0.1 GET yunchi.cn/index/Login/login
+[运行时间：0.020055s] [吞吐率：49.86req/s] [内存消耗：1,910.81kb] [文件加载：100]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yunchi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=d4d53abdf05405c0f36aa39a292d0970',
+)
+[ info ] [ PARAM ] array (
+  '/index/Login/login' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Login->login[ /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/controller/Login.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/view/login/login.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-15T08:42:06+08:00 ] 127.0.0.1 GET yunchi.cn/favicon.ico
+[运行时间：0.014846s] [吞吐率：67.36req/s] [内存消耗：1,615.48kb] [文件加载：94]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yunchi.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://yunchi.cn/index/Login/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=d4d53abdf05405c0f36aa39a292d0970',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-15T08:42:14+08:00 ] 127.0.0.1 GET yunchi.cn/server/Index/index
+[运行时间：0.020280s] [吞吐率：49.31req/s] [内存消耗：1,900.93kb] [文件加载：101]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'server',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yunchi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=d4d53abdf05405c0f36aa39a292d0970',
+)
+[ info ] [ PARAM ] array (
+  '/server/Index/index' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-15T08:42:14+08:00 ] 127.0.0.1 GET yunchi.cn/server/Login/login
+[运行时间：0.017154s] [吞吐率：58.30req/s] [内存消耗：1,901.27kb] [文件加载：100]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'server',
+    1 => 'Login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yunchi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=d4d53abdf05405c0f36aa39a292d0970',
+)
+[ info ] [ PARAM ] array (
+  '/server/Login/login' => '',
+)
+[ info ] [ RUN ] app\server\controller\Login->login[ /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/server/controller/Login.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/server/view/login/login.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-15T08:42:22+08:00 ] 127.0.0.1 POST yunchi.cn/index/Login/checkLogin
+[运行时间：0.068138s] [吞吐率：14.68req/s] [内存消耗：2,460.70kb] [文件加载：106]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Login',
+    2 => 'checkLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yunchi.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '33',
+  'accept' => '*/*',
+  'origin' => 'http://yunchi.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://yunchi.cn/index/Login/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=d4d53abdf05405c0f36aa39a292d0970',
+)
+[ info ] [ PARAM ] array (
+  '/index/Login/checkLogin' => '',
+  'name' => 'admin',
+  'password' => '123456',
+  'type' => '0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Login->checkLogin[ /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.026375s ] mysql:host=101.89.115.24;port=3306;dbname=pension;charset=utf8
+[ sql ] [ SQL ] SELECT `id`,`name`,`mobile`,`email`,`r_id`,`is_super`,`remarks`,`create_time` FROM yc_user WHERE `name`='admin' AND `password`='81bf0687697f0165bd5629fca568acb0' [ RunTime:0.015654s ]
+---------------------------------------------------------------
+[ 2019-04-15T08:42:22+08:00 ] 127.0.0.1 GET yunchi.cn/index/Index/index
+[运行时间：0.069956s] [吞吐率：14.29req/s] [内存消耗：2,622.50kb] [文件加载：109]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yunchi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://yunchi.cn/index/Login/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=d4d53abdf05405c0f36aa39a292d0970',
+)
+[ info ] [ PARAM ] array (
+  '/index/Index/index' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/view/index/index.html [ array (
+  0 => 'menu',
+  1 => 'user_info',
+  2 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025508s ] mysql:host=101.89.115.24;port=3306;dbname=pension;charset=utf8
+[ sql ] [ SQL ] SELECT `id`,`name`,`url`,`icon`,`pid`,`level`,`m_status`,`weight`,`create_time` FROM yc_menu  WHERE  `m_status`=1 ORDER BY `weight` ASC,`id` ASC [ RunTime:0.020531s ]
+---------------------------------------------------------------
+[ 2019-04-15T08:42:22+08:00 ] 127.0.0.1 GET yunchi.cn/index/Index/main
+[运行时间：0.227101s] [吞吐率：4.40req/s] [内存消耗：4,404.50kb] [文件加载：120]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yunchi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://yunchi.cn/index/Index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=d4d53abdf05405c0f36aa39a292d0970',
+)
+[ info ] [ PARAM ] array (
+  '/index/Index/main' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->main[ /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/view/index/main.html [ array (
+  0 => 'gency',
+  1 => 'clientIntegral',
+  2 => 'sumIntegralRecords',
+  3 => 'birthday',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021426s ] mysql:host=101.89.115.24;port=3306;dbname=pension;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_work` [ RunTime:0.015183s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yc_work` `w` LEFT JOIN `yc_client` `c` ON `w`.`client_id`=`c`.`id` LEFT JOIN `yc_staff_user` `s` ON `w`.`staff_number`=`s`.`number` WHERE  `type` IN (1,2,3) LIMIT 1 [ RunTime:0.018391s ]
+[ sql ] [ SQL ] SELECT w.id,w.title,w.staff_number,w.plan_id,w.client_id,w.type,w.state,w.create_time,(case when w.plan_id!=0 then (select name from yc_work_plan where id=w.plan_id) else 0 end) as plan_title,(case when w.state=5 then (select concat_ws(";",call_result,create_time) from yc_work_log where w_id=w.id order by id desc limit 1) else 0 end) as work_log,c.name as userName,s.display_name FROM `yc_work` `w` LEFT JOIN `yc_client` `c` ON `w`.`client_id`=`c`.`id` LEFT JOIN `yc_staff_user` `s` ON `w`.`staff_number`=`s`.`number` WHERE  `type` IN (1,2,3) ORDER BY `w`.`id` DESC LIMIT 0,5 [ RunTime:0.018178s ]
+[ sql ] [ SQL ] SELECT SUM(`integral`) AS integral,MAX(`integral`) AS max,MIN(`integral`) AS `min`,COUNT(`id`) AS total FROM yc_client [ RunTime:0.014982s ]
+[ sql ] [ SQL ] SELECT `type`,SUM(`score`) AS score,COUNT(`id`) AS total FROM yc_integral  GROUP BY `type` [ RunTime:0.017784s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_client` [ RunTime:0.017142s ]
+[ sql ] [ SQL ] SELECT `birthday`,`id`,`name`,`head`,`age` FROM `yc_client` [ RunTime:0.048444s ]
+[ error ] [8]未定义变量: arr[/Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/model/Main.php:194]
+[ error ] [8]未定义变量: title[/Applications/XAMPP/xamppfiles/htdocs/pension_project/runtime/temp/b91db48711266ab571f6724bfca8e2eb.php:7]
+---------------------------------------------------------------
+[ 2019-04-15T08:42:23+08:00 ] 127.0.0.1 POST yunchi.cn/index/Work/mess.html
+[运行时间：0.160532s] [吞吐率：6.23req/s] [内存消耗：3,245.48kb] [文件加载：111]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Work',
+    2 => 'mess',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yunchi.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => '*/*',
+  'origin' => 'http://yunchi.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'referer' => 'http://yunchi.cn/index/Index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=d4d53abdf05405c0f36aa39a292d0970',
+)
+[ info ] [ PARAM ] array (
+  '/index/Work/mess_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Work->mess[ /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/controller/Work.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023936s ] mysql:host=101.89.115.24;port=3306;dbname=pension;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_work` [ RunTime:0.016654s ]
+[ sql ] [ SQL ] SELECT group_concat(id) as id,type FROM `yc_work` WHERE  `is_read` = 1  AND `type` IN (1,2,3) GROUP BY `type` [ RunTime:0.016960s ]
+---------------------------------------------------------------
+[ 2019-04-15T08:42:23+08:00 ] 127.0.0.1 GET yunchi.cn/index/Index/main_echarts
+[运行时间：0.202371s] [吞吐率：4.94req/s] [内存消耗：3,215.04kb] [文件加载：112]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'main_echarts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yunchi.cn',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'referer' => 'http://yunchi.cn/index/Index/main',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=d4d53abdf05405c0f36aa39a292d0970',
+)
+[ info ] [ PARAM ] array (
+  '/index/Index/main_echarts' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->main_echarts[ /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023884s ] mysql:host=101.89.115.24;port=3306;dbname=pension;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_work` [ RunTime:0.018008s ]
+[ sql ] [ SQL ] SELECT count(id) as number,state FROM `yc_work` WHERE  `state` IN (1,2,3,4,5) GROUP BY `state` [ RunTime:0.015523s ]
+[ sql ] [ SQL ] SELECT from_unixtime(create_time,'%Y-%m-%d') as name,count(id) as value FROM `yc_work` WHERE  `create_time` BETWEEN 1554739200 AND 1555343999 GROUP BY `name` [ RunTime:0.020473s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_client` [ RunTime:0.016822s ]
+[ sql ] [ SQL ] SELECT count(id) as number,sex FROM `yc_client` GROUP BY `sex` [ RunTime:0.018207s ]
+[ sql ] [ SQL ] select name,count('id') as value from (select case when age<=59 then '60岁以下' when age>=60 and age<=69 then '60到69岁之间' when age>=70 and age<=79 then '70到79之间' when age>=80 and age<=89 then '80到89之间' when age>=90 then '90岁以上' end as name from yc_client )a group by name [ RunTime:0.024602s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_client_group` [ RunTime:0.018864s ]
+[ sql ] [ SQL ] SELECT a.name,count(b.cid) as value FROM yc_client_group a LEFT JOIN `yc_client_group_map` `b` ON `a`.`id`=`b`.`gid` GROUP BY `a`.`id` [ RunTime:0.015518s ]
+---------------------------------------------------------------
+[ 2019-04-15T08:42:27+08:00 ] 127.0.0.1 POST yunchi.cn/server/Login/checkLogin
+[运行时间：0.065357s] [吞吐率：15.30req/s] [内存消耗：2,979.53kb] [文件加载：108]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'server',
+    1 => 'Login',
+    2 => 'checkLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yunchi.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '27',
+  'accept' => '*/*',
+  'origin' => 'http://yunchi.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://yunchi.cn/server/Login/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=d4d53abdf05405c0f36aa39a292d0970',
+)
+[ info ] [ PARAM ] array (
+  '/server/Login/checkLogin' => '',
+  'name' => 'yunchi',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\server\controller\Login->checkLogin[ /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/server/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.027526s ] mysql:host=101.89.115.24;port=3306;dbname=pension;charset=utf8
+[ sql ] [ SQL ] SELECT `id`,`name`,`company`,`mobile` FROM yc_provider WHERE `name`='yunchi' AND `password`='81bf0687697f0165bd5629fca568acb0' [ RunTime:0.015930s ]
+---------------------------------------------------------------
+[ 2019-04-15T08:42:27+08:00 ] 127.0.0.1 GET yunchi.cn/server/Index/index
+[运行时间：0.018368s] [吞吐率：54.44req/s] [内存消耗：2,287.64kb] [文件加载：107]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'server',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yunchi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://yunchi.cn/server/Login/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=d4d53abdf05405c0f36aa39a292d0970',
+)
+[ info ] [ PARAM ] array (
+  '/server/Index/index' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\server\controller\Index->index[ /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/server/controller/Index.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/server/view/index/index.html [ array (
+  0 => 'menu',
+  1 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: nodes[/Applications/XAMPP/xamppfiles/htdocs/pension_project/runtime/temp/5bdcace69d1ed0141766d91547e5085d.php:59]
+[ error ] [8]未定义数组索引: nodes[/Applications/XAMPP/xamppfiles/htdocs/pension_project/runtime/temp/5bdcace69d1ed0141766d91547e5085d.php:59]
+[ error ] [8]未定义数组索引: nodes[/Applications/XAMPP/xamppfiles/htdocs/pension_project/runtime/temp/5bdcace69d1ed0141766d91547e5085d.php:59]
+---------------------------------------------------------------
+[ 2019-04-15T08:42:27+08:00 ] 127.0.0.1 GET yunchi.cn/server/Index/main
+[运行时间：0.016349s] [吞吐率：61.17req/s] [内存消耗：1,938.59kb] [文件加载：104]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'server',
+    1 => 'Index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yunchi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://yunchi.cn/server/Index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=d4d53abdf05405c0f36aa39a292d0970',
+)
+[ info ] [ PARAM ] array (
+  '/server/Index/main' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\server\controller\Index->main[ /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/server/controller/Index.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/server/view/index/main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: title[/Applications/XAMPP/xamppfiles/htdocs/pension_project/runtime/temp/cc2ae653de3e86cd9ed5bc94893bdfe2.php:7]
+---------------------------------------------------------------
+[ 2019-04-15T09:10:46+08:00 ] 127.0.0.1 GET yunchi.cn/index/data/work
+[运行时间：0.101160s] [吞吐率：9.89req/s] [内存消耗：3,310.50kb] [文件加载：114]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'data',
+    2 => 'work',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yunchi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://yunchi.cn/index/Index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=d4d53abdf05405c0f36aa39a292d0970',
+)
+[ info ] [ PARAM ] array (
+  '/index/data/work' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Data->work[ /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/controller/Data.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/view/data/work.html [ array (
+  0 => 'work',
+  1 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.026874s ] mysql:host=101.89.115.24;port=3306;dbname=pension;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_work_log` [ RunTime:0.017367s ]
+[ sql ] [ SQL ] SELECT s.display_name, count(l.call_result) as total,
+                    sum(case when l.call_result=1 then 1 else 0 end) as one,
+                    sum(case when l.call_result=2 then 1 else 0 end) as two, 
+                    sum(case when l.call_result=3 then 1 else 0 end) as three, 
+                    sum(case when l.call_result=4 then 1 else 0 end) as four FROM `yc_work_log` `l` LEFT JOIN `yc_work` `w` ON `l`.`w_id`=`w`.`id` LEFT JOIN `yc_staff_user` `s` ON `w`.`staff_number`=`s`.`number` WHERE  `l`.`create_time` BETWEEN 1555257600 AND 1555343999  AND `l`.`call_result` <> 0  AND `w`.`type` = 4 GROUP BY `s`.`number` [ RunTime:0.021348s ]
+---------------------------------------------------------------
+[ 2019-04-15T09:10:51+08:00 ] 127.0.0.1 GET yunchi.cn/index/data/work
+[运行时间：0.092107s] [吞吐率：10.86req/s] [内存消耗：3,164.84kb] [文件加载：112]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'data',
+    2 => 'work',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yunchi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://yunchi.cn/index/Index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=d4d53abdf05405c0f36aa39a292d0970',
+)
+[ info ] [ PARAM ] array (
+  '/index/data/work' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Data->work[ /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/controller/Data.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/view/data/work.html [ array (
+  0 => 'work',
+  1 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023363s ] mysql:host=101.89.115.24;port=3306;dbname=pension;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_work_log` [ RunTime:0.020631s ]
+[ sql ] [ SQL ] SELECT s.display_name, count(l.call_result) as total,
+                    sum(case when l.call_result=1 then 1 else 0 end) as one,
+                    sum(case when l.call_result=2 then 1 else 0 end) as two, 
+                    sum(case when l.call_result=3 then 1 else 0 end) as three, 
+                    sum(case when l.call_result=4 then 1 else 0 end) as four FROM `yc_work_log` `l` LEFT JOIN `yc_work` `w` ON `l`.`w_id`=`w`.`id` LEFT JOIN `yc_staff_user` `s` ON `w`.`staff_number`=`s`.`number` WHERE  `l`.`create_time` BETWEEN 1555257600 AND 1555343999  AND `l`.`call_result` <> 0  AND `w`.`type` = 4 GROUP BY `s`.`number` [ RunTime:0.023289s ]
+---------------------------------------------------------------
+[ 2019-04-15T09:11:29+08:00 ] 127.0.0.1 GET yunchi.cn/index/data/work?start_create=2019-04-09&end_create=2019-04-15
+[运行时间：0.086229s] [吞吐率：11.60req/s] [内存消耗：3,166.30kb] [文件加载：112]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'data',
+    2 => 'work',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yunchi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://yunchi.cn/index/data/work',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=d4d53abdf05405c0f36aa39a292d0970',
+)
+[ info ] [ PARAM ] array (
+  '/index/data/work' => '',
+  'start_create' => '2019-04-09',
+  'end_create' => '2019-04-15',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Data->work[ /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/controller/Data.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/view/data/work.html [ array (
+  0 => 'work',
+  1 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.026284s ] mysql:host=101.89.115.24;port=3306;dbname=pension;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_work_log` [ RunTime:0.017941s ]
+[ sql ] [ SQL ] SELECT s.display_name, count(l.call_result) as total,
+                    sum(case when l.call_result=1 then 1 else 0 end) as one,
+                    sum(case when l.call_result=2 then 1 else 0 end) as two, 
+                    sum(case when l.call_result=3 then 1 else 0 end) as three, 
+                    sum(case when l.call_result=4 then 1 else 0 end) as four FROM `yc_work_log` `l` LEFT JOIN `yc_work` `w` ON `l`.`w_id`=`w`.`id` LEFT JOIN `yc_staff_user` `s` ON `w`.`staff_number`=`s`.`number` WHERE  `l`.`create_time` BETWEEN 1554739200 AND 1555343999  AND `l`.`call_result` <> 0  AND `w`.`type` = 4 GROUP BY `s`.`number` [ RunTime:0.017027s ]
+---------------------------------------------------------------
+[ 2019-04-15T09:11:37+08:00 ] 127.0.0.1 GET yunchi.cn/index/data/work?start_create=2019-04-01&end_create=2019-04-15
+[运行时间：0.086775s] [吞吐率：11.52req/s] [内存消耗：3,166.69kb] [文件加载：112]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'data',
+    2 => 'work',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yunchi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://yunchi.cn/index/data/work?start_create=2019-04-09&end_create=2019-04-15',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=d4d53abdf05405c0f36aa39a292d0970',
+)
+[ info ] [ PARAM ] array (
+  '/index/data/work' => '',
+  'start_create' => '2019-04-01',
+  'end_create' => '2019-04-15',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Data->work[ /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/controller/Data.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/view/data/work.html [ array (
+  0 => 'work',
+  1 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024599s ] mysql:host=101.89.115.24;port=3306;dbname=pension;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_work_log` [ RunTime:0.015473s ]
+[ sql ] [ SQL ] SELECT s.display_name, count(l.call_result) as total,
+                    sum(case when l.call_result=1 then 1 else 0 end) as one,
+                    sum(case when l.call_result=2 then 1 else 0 end) as two, 
+                    sum(case when l.call_result=3 then 1 else 0 end) as three, 
+                    sum(case when l.call_result=4 then 1 else 0 end) as four FROM `yc_work_log` `l` LEFT JOIN `yc_work` `w` ON `l`.`w_id`=`w`.`id` LEFT JOIN `yc_staff_user` `s` ON `w`.`staff_number`=`s`.`number` WHERE  `l`.`create_time` BETWEEN 1554048000 AND 1555343999  AND `l`.`call_result` <> 0  AND `w`.`type` = 4 GROUP BY `s`.`number` [ RunTime:0.021195s ]
+---------------------------------------------------------------
+[ 2019-04-15T09:11:42+08:00 ] 127.0.0.1 GET yunchi.cn/index/data/work?start_create=2018-11-01&end_create=2019-04-15
+[运行时间：0.081424s] [吞吐率：12.28req/s] [内存消耗：3,167.27kb] [文件加载：112]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'data',
+    2 => 'work',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yunchi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://yunchi.cn/index/data/work?start_create=2019-04-01&end_create=2019-04-15',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=d4d53abdf05405c0f36aa39a292d0970',
+)
+[ info ] [ PARAM ] array (
+  '/index/data/work' => '',
+  'start_create' => '2018-11-01',
+  'end_create' => '2019-04-15',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Data->work[ /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/controller/Data.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/view/data/work.html [ array (
+  0 => 'work',
+  1 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022348s ] mysql:host=101.89.115.24;port=3306;dbname=pension;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_work_log` [ RunTime:0.015063s ]
+[ sql ] [ SQL ] SELECT s.display_name, count(l.call_result) as total,
+                    sum(case when l.call_result=1 then 1 else 0 end) as one,
+                    sum(case when l.call_result=2 then 1 else 0 end) as two, 
+                    sum(case when l.call_result=3 then 1 else 0 end) as three, 
+                    sum(case when l.call_result=4 then 1 else 0 end) as four FROM `yc_work_log` `l` LEFT JOIN `yc_work` `w` ON `l`.`w_id`=`w`.`id` LEFT JOIN `yc_staff_user` `s` ON `w`.`staff_number`=`s`.`number` WHERE  `l`.`create_time` BETWEEN 1541001600 AND 1555343999  AND `l`.`call_result` <> 0  AND `w`.`type` = 4 GROUP BY `s`.`number` [ RunTime:0.015918s ]
+---------------------------------------------------------------
+[ 2019-04-15T09:12:07+08:00 ] 127.0.0.1 GET yunchi.cn/index/data/work
+[运行时间：0.095610s] [吞吐率：10.46req/s] [内存消耗：3,165.42kb] [文件加载：112]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'data',
+    2 => 'work',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yunchi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://yunchi.cn/index/Index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=d4d53abdf05405c0f36aa39a292d0970',
+)
+[ info ] [ PARAM ] array (
+  '/index/data/work' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Data->work[ /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/controller/Data.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/view/data/work.html [ array (
+  0 => 'work',
+  1 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023045s ] mysql:host=101.89.115.24;port=3306;dbname=pension;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_work_log` [ RunTime:0.020334s ]
+[ sql ] [ SQL ] SELECT s.display_name, count(l.call_result) as total,
+                    sum(case when l.call_result=1 then 1 else 0 end) as one,
+                    sum(case when l.call_result=2 then 1 else 0 end) as two, 
+                    sum(case when l.call_result=3 then 1 else 0 end) as three, 
+                    sum(case when l.call_result=4 then 1 else 0 end) as four FROM `yc_work_log` `l` LEFT JOIN `yc_work` `w` ON `l`.`w_id`=`w`.`id` LEFT JOIN `yc_staff_user` `s` ON `w`.`staff_number`=`s`.`number` WHERE  `l`.`create_time` BETWEEN 1555257600 AND 1555343999  AND `l`.`call_result` <> 0  AND `w`.`type` = 4 GROUP BY `s`.`number` [ RunTime:0.024228s ]
+---------------------------------------------------------------
+[ 2019-04-15T09:12:13+08:00 ] 127.0.0.1 GET yunchi.cn/index/data/work?start_create=2019-04-04&end_create=2019-04-15
+[运行时间：0.084788s] [吞吐率：11.79req/s] [内存消耗：3,166.88kb] [文件加载：112]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'data',
+    2 => 'work',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yunchi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://yunchi.cn/index/data/work',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=d4d53abdf05405c0f36aa39a292d0970',
+)
+[ info ] [ PARAM ] array (
+  '/index/data/work' => '',
+  'start_create' => '2019-04-04',
+  'end_create' => '2019-04-15',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Data->work[ /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/controller/Data.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/view/data/work.html [ array (
+  0 => 'work',
+  1 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023799s ] mysql:host=101.89.115.24;port=3306;dbname=pension;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_work_log` [ RunTime:0.016999s ]
+[ sql ] [ SQL ] SELECT s.display_name, count(l.call_result) as total,
+                    sum(case when l.call_result=1 then 1 else 0 end) as one,
+                    sum(case when l.call_result=2 then 1 else 0 end) as two, 
+                    sum(case when l.call_result=3 then 1 else 0 end) as three, 
+                    sum(case when l.call_result=4 then 1 else 0 end) as four FROM `yc_work_log` `l` LEFT JOIN `yc_work` `w` ON `l`.`w_id`=`w`.`id` LEFT JOIN `yc_staff_user` `s` ON `w`.`staff_number`=`s`.`number` WHERE  `l`.`create_time` BETWEEN 1554307200 AND 1555343999  AND `l`.`call_result` <> 0  AND `w`.`type` = 4 GROUP BY `s`.`number` [ RunTime:0.015798s ]
+---------------------------------------------------------------
+[ 2019-04-15T09:12:15+08:00 ] 127.0.0.1 GET yunchi.cn/index/data/work
+[运行时间：0.085877s] [吞吐率：11.64req/s] [内存消耗：3,164.84kb] [文件加载：112]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'data',
+    2 => 'work',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yunchi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://yunchi.cn/index/Index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=d4d53abdf05405c0f36aa39a292d0970',
+)
+[ info ] [ PARAM ] array (
+  '/index/data/work' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Data->work[ /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/controller/Data.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/view/data/work.html [ array (
+  0 => 'work',
+  1 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.028268s ] mysql:host=101.89.115.24;port=3306;dbname=pension;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_work_log` [ RunTime:0.017750s ]
+[ sql ] [ SQL ] SELECT s.display_name, count(l.call_result) as total,
+                    sum(case when l.call_result=1 then 1 else 0 end) as one,
+                    sum(case when l.call_result=2 then 1 else 0 end) as two, 
+                    sum(case when l.call_result=3 then 1 else 0 end) as three, 
+                    sum(case when l.call_result=4 then 1 else 0 end) as four FROM `yc_work_log` `l` LEFT JOIN `yc_work` `w` ON `l`.`w_id`=`w`.`id` LEFT JOIN `yc_staff_user` `s` ON `w`.`staff_number`=`s`.`number` WHERE  `l`.`create_time` BETWEEN 1555257600 AND 1555343999  AND `l`.`call_result` <> 0  AND `w`.`type` = 4 GROUP BY `s`.`number` [ RunTime:0.015770s ]
+---------------------------------------------------------------
+[ 2019-04-15T09:14:01+08:00 ] 127.0.0.1 GET yunchi.cn/index/data/work
+[运行时间：0.083684s] [吞吐率：11.95req/s] [内存消耗：3,164.84kb] [文件加载：112]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'data',
+    2 => 'work',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yunchi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://yunchi.cn/index/Index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=d4d53abdf05405c0f36aa39a292d0970',
+)
+[ info ] [ PARAM ] array (
+  '/index/data/work' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Data->work[ /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/controller/Data.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/view/data/work.html [ array (
+  0 => 'work',
+  1 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024028s ] mysql:host=101.89.115.24;port=3306;dbname=pension;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_work_log` [ RunTime:0.018250s ]
+[ sql ] [ SQL ] SELECT s.display_name, count(l.call_result) as total,
+                    sum(case when l.call_result=1 then 1 else 0 end) as one,
+                    sum(case when l.call_result=2 then 1 else 0 end) as two, 
+                    sum(case when l.call_result=3 then 1 else 0 end) as three, 
+                    sum(case when l.call_result=4 then 1 else 0 end) as four FROM `yc_work_log` `l` LEFT JOIN `yc_work` `w` ON `l`.`w_id`=`w`.`id` LEFT JOIN `yc_staff_user` `s` ON `w`.`staff_number`=`s`.`number` WHERE  `l`.`create_time` BETWEEN 1555257600 AND 1555343999  AND `l`.`call_result` <> 0  AND `w`.`type` = 4 GROUP BY `s`.`number` [ RunTime:0.015249s ]
+---------------------------------------------------------------
+[ 2019-04-15T09:14:07+08:00 ] 127.0.0.1 GET yunchi.cn/index/data/work?start_create=2019-04-01&end_create=2019-04-15
+[运行时间：0.101437s] [吞吐率：9.86req/s] [内存消耗：3,166.30kb] [文件加载：112]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'data',
+    2 => 'work',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yunchi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://yunchi.cn/index/data/work',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=d4d53abdf05405c0f36aa39a292d0970',
+)
+[ info ] [ PARAM ] array (
+  '/index/data/work' => '',
+  'start_create' => '2019-04-01',
+  'end_create' => '2019-04-15',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Data->work[ /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/controller/Data.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/view/data/work.html [ array (
+  0 => 'work',
+  1 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.037112s ] mysql:host=101.89.115.24;port=3306;dbname=pension;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_work_log` [ RunTime:0.018471s ]
+[ sql ] [ SQL ] SELECT s.display_name, count(l.call_result) as total,
+                    sum(case when l.call_result=1 then 1 else 0 end) as one,
+                    sum(case when l.call_result=2 then 1 else 0 end) as two, 
+                    sum(case when l.call_result=3 then 1 else 0 end) as three, 
+                    sum(case when l.call_result=4 then 1 else 0 end) as four FROM `yc_work_log` `l` LEFT JOIN `yc_work` `w` ON `l`.`w_id`=`w`.`id` LEFT JOIN `yc_staff_user` `s` ON `w`.`staff_number`=`s`.`number` WHERE  `l`.`create_time` BETWEEN 1554048000 AND 1555343999  AND `l`.`call_result` <> 0  AND `w`.`type` = 4 GROUP BY `s`.`number` [ RunTime:0.020568s ]
+---------------------------------------------------------------
+[ 2019-04-15T13:23:18+08:00 ] 127.0.0.1 GET yunchi.cn/index/Warning/index?type=sos
+[运行时间：0.492390s] [吞吐率：2.03req/s] [内存消耗：3,484.56kb] [文件加载：120]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Warning',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yunchi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://yunchi.cn/index/Index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=d4d53abdf05405c0f36aa39a292d0970',
+)
+[ info ] [ PARAM ] array (
+  '/index/Warning/index' => '',
+  'type' => 'sos',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Warning->index[ /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/controller/Warning.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/view/warning/index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.030489s ] mysql:host=101.89.115.24;port=3306;dbname=pension;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_work` [ RunTime:0.019479s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yc_work` WHERE  `type` = 1 LIMIT 1 [ RunTime:0.023533s ]
+[ sql ] [ SQL ] SELECT `id`,`create_time`,`lng`,`lat`,`address`,`client_id`,`type`,`heart` FROM `yc_work` WHERE  `type` = 1 ORDER BY `id` DESC LIMIT 0,30 [ RunTime:0.016841s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_client` [ RunTime:0.016142s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.019416s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.016034s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.017811s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.022897s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.014565s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.018708s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.021476s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.015787s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.017834s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.020716s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.017204s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.020921s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.021235s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.016038s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.019612s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.019747s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.014557s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.014722s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.016462s ]
+[ error ] [8]未定义变量: title[/Applications/XAMPP/xamppfiles/htdocs/pension_project/runtime/temp/748273e1871297eab23d24bcfb880dbe.php:7]
+[ error ] [8]未定义数组索引: start_create[/Applications/XAMPP/xamppfiles/htdocs/pension_project/runtime/temp/748273e1871297eab23d24bcfb880dbe.php:37]
+[ error ] [8]未定义数组索引: end_create[/Applications/XAMPP/xamppfiles/htdocs/pension_project/runtime/temp/748273e1871297eab23d24bcfb880dbe.php:41]
+[ error ] [8]未定义数组索引: name[/Applications/XAMPP/xamppfiles/htdocs/pension_project/runtime/temp/748273e1871297eab23d24bcfb880dbe.php:47]
+[ error ] [8]未定义数组索引: cardid[/Applications/XAMPP/xamppfiles/htdocs/pension_project/runtime/temp/748273e1871297eab23d24bcfb880dbe.php:53]
+[ error ] [8]未定义数组索引: imei[/Applications/XAMPP/xamppfiles/htdocs/pension_project/runtime/temp/748273e1871297eab23d24bcfb880dbe.php:59]
+[ error ] [2]Use of undefined constant heart - assumed 'heart' (this will throw an Error in a future version of PHP)[/Applications/XAMPP/xamppfiles/htdocs/pension_project/runtime/temp/748273e1871297eab23d24bcfb880dbe.php:82]
+---------------------------------------------------------------
+[ 2019-04-15T13:23:19+08:00 ] 127.0.0.1 GET yunchi.cn/index/Warning/index?type=heart
+[运行时间：0.717131s] [吞吐率：1.39req/s] [内存消耗：3,352.74kb] [文件加载：118]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Warning',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yunchi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://yunchi.cn/index/Index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=d4d53abdf05405c0f36aa39a292d0970',
+)
+[ info ] [ PARAM ] array (
+  '/index/Warning/index' => '',
+  'type' => 'heart',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Warning->index[ /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/controller/Warning.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/view/warning/index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.047869s ] mysql:host=101.89.115.24;port=3306;dbname=pension;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_work` [ RunTime:0.018217s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yc_work` WHERE  `type` = 3 LIMIT 1 [ RunTime:0.019961s ]
+[ sql ] [ SQL ] SELECT `id`,`create_time`,`lng`,`lat`,`address`,`client_id`,`type`,`heart` FROM `yc_work` WHERE  `type` = 3 ORDER BY `id` DESC LIMIT 0,30 [ RunTime:0.027301s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_client` [ RunTime:0.017915s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.017298s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.018212s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.014543s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.020477s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.020092s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.015758s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.020443s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.020146s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.016972s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.019499s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.022632s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.015076s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.018515s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.016994s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.016492s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.016100s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.014559s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.017807s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.016211s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.017414s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.022130s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.022585s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.014719s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.017239s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.018909s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.019508s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.020169s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.020493s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.017114s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.020190s ]
+[ error ] [8]未定义变量: title[/Applications/XAMPP/xamppfiles/htdocs/pension_project/runtime/temp/748273e1871297eab23d24bcfb880dbe.php:7]
+[ error ] [8]未定义数组索引: start_create[/Applications/XAMPP/xamppfiles/htdocs/pension_project/runtime/temp/748273e1871297eab23d24bcfb880dbe.php:37]
+[ error ] [8]未定义数组索引: end_create[/Applications/XAMPP/xamppfiles/htdocs/pension_project/runtime/temp/748273e1871297eab23d24bcfb880dbe.php:41]
+[ error ] [8]未定义数组索引: name[/Applications/XAMPP/xamppfiles/htdocs/pension_project/runtime/temp/748273e1871297eab23d24bcfb880dbe.php:47]
+[ error ] [8]未定义数组索引: cardid[/Applications/XAMPP/xamppfiles/htdocs/pension_project/runtime/temp/748273e1871297eab23d24bcfb880dbe.php:53]
+[ error ] [8]未定义数组索引: imei[/Applications/XAMPP/xamppfiles/htdocs/pension_project/runtime/temp/748273e1871297eab23d24bcfb880dbe.php:59]
+[ error ] [2]Use of undefined constant heart - assumed 'heart' (this will throw an Error in a future version of PHP)[/Applications/XAMPP/xamppfiles/htdocs/pension_project/runtime/temp/748273e1871297eab23d24bcfb880dbe.php:82]
+---------------------------------------------------------------
+[ 2019-04-15T13:23:21+08:00 ] 127.0.0.1 GET yunchi.cn/index/Warning/index?type=fence
+[运行时间：0.726551s] [吞吐率：1.38req/s] [内存消耗：3,352.91kb] [文件加载：118]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Warning',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yunchi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://yunchi.cn/index/Index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=d4d53abdf05405c0f36aa39a292d0970',
+)
+[ info ] [ PARAM ] array (
+  '/index/Warning/index' => '',
+  'type' => 'fence',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Warning->index[ /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/controller/Warning.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/view/warning/index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.030824s ] mysql:host=101.89.115.24;port=3306;dbname=pension;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_work` [ RunTime:0.018166s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yc_work` WHERE  `type` = 2 LIMIT 1 [ RunTime:0.022166s ]
+[ sql ] [ SQL ] SELECT `id`,`create_time`,`lng`,`lat`,`address`,`client_id`,`type`,`heart` FROM `yc_work` WHERE  `type` = 2 ORDER BY `id` DESC LIMIT 0,30 [ RunTime:0.015237s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_client` [ RunTime:0.023602s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.015685s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.019222s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.020205s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.023849s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.018335s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.017096s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.017626s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.017879s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.017278s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.020468s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.023741s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.016494s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.023798s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.020115s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.016668s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.018855s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.022299s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.020301s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.015494s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.019534s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.021440s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.015614s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.019797s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.022901s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.017048s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.020292s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.018863s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.018423s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.017322s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yc_client` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.019951s ]
+[ error ] [8]未定义变量: title[/Applications/XAMPP/xamppfiles/htdocs/pension_project/runtime/temp/748273e1871297eab23d24bcfb880dbe.php:7]
+[ error ] [8]未定义数组索引: start_create[/Applications/XAMPP/xamppfiles/htdocs/pension_project/runtime/temp/748273e1871297eab23d24bcfb880dbe.php:37]
+[ error ] [8]未定义数组索引: end_create[/Applications/XAMPP/xamppfiles/htdocs/pension_project/runtime/temp/748273e1871297eab23d24bcfb880dbe.php:41]
+[ error ] [8]未定义数组索引: name[/Applications/XAMPP/xamppfiles/htdocs/pension_project/runtime/temp/748273e1871297eab23d24bcfb880dbe.php:47]
+[ error ] [8]未定义数组索引: cardid[/Applications/XAMPP/xamppfiles/htdocs/pension_project/runtime/temp/748273e1871297eab23d24bcfb880dbe.php:53]
+[ error ] [8]未定义数组索引: imei[/Applications/XAMPP/xamppfiles/htdocs/pension_project/runtime/temp/748273e1871297eab23d24bcfb880dbe.php:59]
+[ error ] [2]Use of undefined constant heart - assumed 'heart' (this will throw an Error in a future version of PHP)[/Applications/XAMPP/xamppfiles/htdocs/pension_project/runtime/temp/748273e1871297eab23d24bcfb880dbe.php:82]
+---------------------------------------------------------------
+[ 2019-04-15T13:23:25+08:00 ] 127.0.0.1 GET yunchi.cn/index/work/works
+[运行时间：0.142932s] [吞吐率：7.00req/s] [内存消耗：3,395.55kb] [文件加载：115]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'work',
+    2 => 'works',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yunchi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://yunchi.cn/index/Index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=d4d53abdf05405c0f36aa39a292d0970',
+)
+[ info ] [ PARAM ] array (
+  '/index/work/works' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Work->works[ /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/controller/Work.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/view/work/works.html [ array (
+  0 => 'work',
+  1 => 'page',
+  2 => 'item_value',
+  3 => 'param',
+  4 => 'work_state',
+  5 => 'work_type',
+  6 => 'work_result',
+  7 => 'statistics',
+  8 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.028409s ] mysql:host=101.89.115.24;port=3306;dbname=pension;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_work` [ RunTime:0.016172s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yc_work` `w` LEFT JOIN `yc_client` `c` ON `w`.`client_id`=`c`.`id` LEFT JOIN `yc_staff_user` `s` ON `w`.`staff_number`=`s`.`number` LIMIT 1 [ RunTime:0.022806s ]
+[ sql ] [ SQL ] SELECT w.id,w.title,w.staff_number,w.plan_id,w.client_id,w.type,w.state,w.create_time,(case when w.plan_id!=0 then (select name from yc_work_plan where id=w.plan_id) else 0 end) as plan_title,(case when w.state=5 then (select concat_ws(";",call_result,create_time) from yc_work_log where w_id=w.id order by id desc limit 1) else 0 end) as work_log,c.name as userName,s.display_name FROM `yc_work` `w` LEFT JOIN `yc_client` `c` ON `w`.`client_id`=`c`.`id` LEFT JOIN `yc_staff_user` `s` ON `w`.`staff_number`=`s`.`number` ORDER BY `w`.`id` DESC LIMIT 0,20 [ RunTime:0.020442s ]
+[ sql ] [ SQL ] SELECT 
+            sum(case when state=1 then 1 else 0 end) as unallocated,
+            sum(case when state=2 then 1 else 0 end) as noaccepted,
+            sum(case when state=3 then 1 else 0 end) as accepted,
+            sum(case when state=4 then 1 else 0 end) as closed,
+            sum(case when state=5 then 1 else 0 end) as completed,
+            sum(case when plan_id!=0 then 1 else 0 end) as plan
+             FROM `yc_work` [ RunTime:0.022095s ]
+---------------------------------------------------------------
+[ 2019-04-15T13:23:27+08:00 ] 127.0.0.1 GET yunchi.cn/index/Work/planGroup
+[运行时间：0.113529s] [吞吐率：8.81req/s] [内存消耗：3,289.13kb] [文件加载：116]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Work',
+    2 => 'planGroup',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yunchi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://yunchi.cn/index/Index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=d4d53abdf05405c0f36aa39a292d0970',
+)
+[ info ] [ PARAM ] array (
+  '/index/Work/planGroup' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Work->planGroup[ /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/controller/Work.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/view/work/plan_group.html [ array (
+  0 => 'plan',
+  1 => 'page',
+  2 => 'param',
+  3 => 'item_value',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025870s ] mysql:host=101.89.115.24;port=3306;dbname=pension;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_work_plan` [ RunTime:0.018714s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yc_work_plan` LIMIT 1 [ RunTime:0.016864s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`start_time`,`end_time`,`state`,`quantity`,`create_time` FROM `yc_work_plan` ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.020659s ]
+---------------------------------------------------------------
+[ 2019-04-15T13:23:28+08:00 ] 127.0.0.1 GET yunchi.cn/index/Work/planWorks
+[运行时间：0.113846s] [吞吐率：8.78req/s] [内存消耗：3,345.57kb] [文件加载：115]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Work',
+    2 => 'planWorks',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yunchi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://yunchi.cn/index/Index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=d4d53abdf05405c0f36aa39a292d0970',
+)
+[ info ] [ PARAM ] array (
+  '/index/Work/planWorks' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Work->planWorks[ /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/controller/Work.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/view/work/plan_works.html [ array (
+  0 => 'work',
+  1 => 'page',
+  2 => 'param',
+  3 => 'item_value',
+  4 => 'plan_state',
+  5 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.029713s ] mysql:host=101.89.115.24;port=3306;dbname=pension;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_work` [ RunTime:0.018366s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yc_work` `w` LEFT JOIN `yc_client` `c` ON `w`.`client_id`=`c`.`id` LEFT JOIN `yc_work_plan` `p` ON `w`.`plan_id`=`p`.`id` WHERE  `w`.`plan_id` <> 0 LIMIT 1 [ RunTime:0.020849s ]
+[ sql ] [ SQL ] SELECT w.id,w.plan_state,w.create_time,c.name as userName,p.start_time,p.end_time,(case when w.state=5 then (select create_time from yc_work_log where w_id=w.id and type=5 order by id desc limit 1) else 0 end) as finish_time FROM `yc_work` `w` LEFT JOIN `yc_client` `c` ON `w`.`client_id`=`c`.`id` LEFT JOIN `yc_work_plan` `p` ON `w`.`plan_id`=`p`.`id` WHERE  `w`.`plan_id` <> 0 ORDER BY `w`.`id` DESC LIMIT 0,20 [ RunTime:0.017791s ]
+---------------------------------------------------------------
+[ 2019-04-15T13:23:29+08:00 ] 127.0.0.1 GET yunchi.cn/index/Work/qualityResult
+[运行时间：0.159814s] [吞吐率：6.26req/s] [内存消耗：3,339.73kb] [文件加载：115]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Work',
+    2 => 'qualityResult',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yunchi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://yunchi.cn/index/Index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=d4d53abdf05405c0f36aa39a292d0970',
+)
+[ info ] [ PARAM ] array (
+  '/index/Work/qualityResult' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Work->qualityResult[ /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/controller/Work.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/view/work/quality_result.html [ array (
+  0 => 'records',
+  1 => 'page',
+  2 => 'param',
+  3 => 'item_value',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.031077s ] mysql:host=101.89.115.24;port=3306;dbname=pension;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_work_log` [ RunTime:0.016825s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yc_work_log` `l` LEFT JOIN `yc_work` `w` ON `l`.`w_id`=`w`.`id` LEFT JOIN `yc_client` `c` ON `c`.`id`=`w`.`client_id` LEFT JOIN `yc_staff_user` `s` ON `s`.`number`=`w`.`staff_number` WHERE  `l`.`type` IN ('6','7') LIMIT 1 [ RunTime:0.018811s ]
+[ sql ] [ SQL ] SELECT `l`.`w_id`,`l`.`type`,l.create_time as quality_time,`l`.`quality_score`,w.type as work_type,`w`.`create_time`,c.name as clientName,s.display_name as staffUser FROM `yc_work_log` `l` LEFT JOIN `yc_work` `w` ON `l`.`w_id`=`w`.`id` LEFT JOIN `yc_client` `c` ON `c`.`id`=`w`.`client_id` LEFT JOIN `yc_staff_user` `s` ON `s`.`number`=`w`.`staff_number` WHERE  `l`.`type` IN ('6','7') ORDER BY `l`.`id` DESC LIMIT 0,20 [ RunTime:0.027605s ]
+[ sql ] [ SQL ] SELECT `create_time` FROM yc_work_log WHERE `type`=5 AND `w_id`=4 ORDER BY `id` DESC LIMIT 1 [ RunTime:0.019950s ]
+[ sql ] [ SQL ] SELECT `create_time` FROM yc_work_log WHERE `type`=5 AND `w_id`=4 ORDER BY `id` DESC LIMIT 1 [ RunTime:0.019901s ]
+---------------------------------------------------------------
+[ 2019-04-15T13:23:30+08:00 ] 127.0.0.1 GET yunchi.cn/index/Work/quality
+[运行时间：0.103283s] [吞吐率：9.68req/s] [内存消耗：3,347.46kb] [文件加载：115]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Work',
+    2 => 'quality',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yunchi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://yunchi.cn/index/Index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=d4d53abdf05405c0f36aa39a292d0970',
+)
+[ info ] [ PARAM ] array (
+  '/index/Work/quality' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Work->quality[ /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/controller/Work.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/view/work/quality.html [ array (
+  0 => 'work',
+  1 => 'page',
+  2 => 'param',
+  3 => 'item_value',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025789s ] mysql:host=101.89.115.24;port=3306;dbname=pension;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_work` [ RunTime:0.015425s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yc_work` `w` LEFT JOIN `yc_client` `c` ON `w`.`client_id`=`c`.`id` LEFT JOIN `yc_staff_user` `s` ON `w`.`staff_number`=`s`.`number` WHERE  `w`.`is_check` = 1  AND `w`.`state` = 5 LIMIT 1 [ RunTime:0.016401s ]
+[ sql ] [ SQL ] SELECT w.id,w.title,w.staff_number,w.plan_id,w.client_id,w.type,w.state,w.create_time,(case when w.plan_id!=0 then (select name from yc_work_plan where id=w.plan_id) else 0 end) as plan_title,(case when w.state=5 then (select concat_ws(";",call_result,create_time) from yc_work_log where w_id=w.id order by id desc limit 1) else 0 end) as work_log,c.name as userName,s.display_name FROM `yc_work` `w` LEFT JOIN `yc_client` `c` ON `w`.`client_id`=`c`.`id` LEFT JOIN `yc_staff_user` `s` ON `w`.`staff_number`=`s`.`number` WHERE  `w`.`is_check` = 1  AND `w`.`state` = 5 ORDER BY `w`.`id` DESC LIMIT 0,20 [ RunTime:0.019455s ]

@@ -1,0 +1,125 @@
+p{padding: 5px 0px;}
+/* 禁止横向移动 */
+textarea{resize:vertical;}
+/* 网站左侧头部样式 */
+.nav-header{height:92px;padding:0px;padding-left: 25px;line-height: 92px;}
+.nav-header .text-muted{font-size: 20px;font-weight: bolder;font-style: italic;letter-spacing: 10px;}
+.logo-element{padding:0px;}
+/* 左侧菜单样式 */
+#side-menu li:not(.nav-header){padding:5px 0px;}
+/* 按钮点击后去除边框 */
+button {outline:none !important;}
+/* 按钮左侧带说明标签 */
+.btn-l {border-bottom-right-radius: 0px;border-top-right-radius: 0px }
+.btn-l-a{
+    display: inline-block;
+    width: 20px;
+    border: 1px solid #e7eaec;
+    border-left: none;
+    height: 34px;
+    vertical-align: top;
+    line-height: 34px;
+    text-align: -webkit-center;
+    margin-left: -4px;
+    border-top-right-radius:3px;
+    border-bottom-right-radius:3px;
+}
+/* layer的msg弹窗显示位置 */
+.layui-layer-msg {top:30% !important;}
+/* 分页样式修改 */
+.page{text-align: center; !important;}
+.page .active span{background: #337AB7 !important;color: white !important;}
+.form-control, .single-line{padding-top:4px !important;}
+
+/* 多条件搜索样式修改 */
+.nav-tabs{margin-bottom: 8px !important;}
+.navbar-form{display: contents;}
+.navbar-form .form-group{margin-bottom: 8px !important;}
+.navbar-form button{margin-bottom: 8px !important;}
+
+/* 高级搜索样式修改 */
+#senior_search .dropdown-menu {width:600px !important;left:0px !important;padding-top:10px;padding-right: 10px;box-shadow: rgba(0,0,0,0.3) 0px 0px 21px 0px;}
+#senior_search #btn_search {margin-bottom: 8px !important;}
+
+/* tab切换样式修改 */
+.tab-a{border:none !important;border-bottom: 2px solid green !important;}
+.panel-heading{padding-left:0px;padding-right:0px;}
+.panel-body {border:none !important;padding:0px 0px !important;}
+
+/* table行距 */
+.table > tbody > tr > td, .table{line-height: 2.5;}
+
+/* 添加按钮样式修改 */
+.ibox-title{padding: 5px 10px 5px 0px;}
+.ibox-title button{font-size: 12px;line-height: initial;height: 34px;margin-bottom:0px;}
+
+/* 文字溢出省略号 */
+.table-remarks {width: 50px;overflow: hidden;text-overflow: ellipsis;white-space:nowrap;float: left;}
+
+/* model框样式修改 */
+.modal-content {margin-top:50px;}
+.modal-header {padding:10px 30px !important;margin-bottom:20px;}
+.modal-header h1 {text-align: left;font-size: 14px !important;color: #333;}
+.modal-body {background: white !important;padding:0px 30px;}
+.modal-footer {border-top: none;}
+.modal-backdrop {opacity: 0.3 !important;}
+
+/* 自定义多选框/单选框 （作废保留） */
+/*.checkbox label, .radio label {padding-left: 0px;margin-bottom: 8px;}*/
+/*.checkbox input[type=checkbox], .checkbox input[type=radio] {position: absolute;opacity: 0;}*/
+/*.icheckbox_square-green, .icheckbox_square-green {position: relative;}*/
+/*.checkbox .iCheck-helper {position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;}*/
+
+/* 续费弹窗的去续费按钮 */
+#renew-modal .c-renew{color: #20a0ff!important;cursor: pointer;}
+
+/* 确认续费的滚动框 */
+.scroll-y {line-height: 25px;height: 100px;overflow-y:scroll;border: 1px solid #ccc;padding: 5px;}
+
+/* 标签鼠标移上去效果 */
+.input-group-addon{cursor: pointer !important;}
+
+/**
+ * 节点的隐藏/显示
+*/
+.style-h {display: none;}
+.style-s {display: block;}
+
+/**
+ * 上传样式修改
+*/
+.upload-file {display:inline-block;margin:0 0 0 0 !important;position:relative;}
+.upload-file img {width:300px;height:150px;}
+.upload-file div {opacity: 0;position: absolute;top: 0px;width: 100%;height: 100%;cursor: pointer;}
+.upload-file input {opacity: 0;display: none;}
+
+/**
+ * 购卡记录样式
+*/
+.records th, .records td:not(:first-child){text-align: center;}
+.records .r-o-number{background: #f5f8fa;text-align: left;}
+.records .r-o-details{line-height: 25px;font-size: 14px;}
+
+/* table列表的最小列宽 */
+.table-width1 {min-width: 10px !important;}
+.table-width2 {min-width: 20px !important;}
+.table-width3 {min-width: 30px !important;}
+.table-width4 {min-width: 40px !important;}
+.table-width5 {min-width: 50px !important;}
+.table-width6 {min-width: 60px !important;}
+.table-width7 {min-width: 70px !important;}
+.table-width8 {min-width: 80px !important;}
+.table-width9 {min-width: 90px !important;}
+.table-width10 {min-width: 100px !important;}
+.table-width11 {min-width: 110px !important;}
+.table-width12 {min-width: 120px !important;}
+.table-width13 {min-width: 130px !important;}
+.table-width14 {min-width: 140px !important;}
+.table-width15 {min-width: 150px !important;}
+.table-width16 {min-width: 160px !important;}
+.table-width17 {min-width: 170px !important;}
+.table-width18 {min-width: 180px !important;}
+.table-width19 {min-width: 190px !important;}
+.table-width20 {min-width: 200px !important;}
+.table-width25 {min-width: 250px !important;}
+.table-width30 {min-width: 300px !important;}

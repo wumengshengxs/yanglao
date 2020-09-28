@@ -1,0 +1,168 @@
+---------------------------------------------------------------
+[ 2019-04-22T08:48:40+08:00 ] 127.0.0.1 GET yunchi.cn/
+[运行时间：0.039159s] [吞吐率：25.54req/s] [内存消耗：1,907.49kb] [文件加载：101]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yunchi.cn',
+  'connection' => 'keep-alive',
+  'purpose' => 'prefetch',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-22T08:48:40+08:00 ] 127.0.0.1 GET yunchi.cn/index/Login/login
+[运行时间：0.016318s] [吞吐率：61.28req/s] [内存消耗：1,910.77kb] [文件加载：100]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yunchi.cn',
+  'connection' => 'keep-alive',
+  'purpose' => 'prefetch',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=850ca2767744a82d0b3480f95c009f83',
+)
+[ info ] [ PARAM ] array (
+  '/index/Login/login' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Login->login[ /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/controller/Login.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/view/login/login.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-22T08:48:41+08:00 ] 127.0.0.1 GET yunchi.cn/index/Login/login
+[运行时间：0.019964s] [吞吐率：50.09req/s] [内存消耗：1,910.81kb] [文件加载：100]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yunchi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=850ca2767744a82d0b3480f95c009f83',
+)
+[ info ] [ PARAM ] array (
+  '/index/Login/login' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Login->login[ /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/controller/Login.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/view/login/login.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-22T08:48:41+08:00 ] 127.0.0.1 GET yunchi.cn/favicon.ico
+[运行时间：0.017735s] [吞吐率：56.39req/s] [内存消耗：1,616.06kb] [文件加载：94]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yunchi.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://yunchi.cn/index/Login/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=850ca2767744a82d0b3480f95c009f83',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-22T08:48:48+08:00 ] 127.0.0.1 GET yunchi.cn/server/Login/login
+[运行时间：0.020359s] [吞吐率：49.12req/s] [内存消耗：1,901.85kb] [文件加载：100]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'server',
+    1 => 'Login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yunchi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=850ca2767744a82d0b3480f95c009f83',
+)
+[ info ] [ PARAM ] array (
+  '/server/Login/login' => '',
+)
+[ info ] [ RUN ] app\server\controller\Login->login[ /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/server/controller/Login.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/server/view/login/login.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ LOG ] INIT File

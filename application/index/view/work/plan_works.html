@@ -1,0 +1,91 @@
+{include file="public/head"/}
+<body class="gray-bg">
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="ibox float-e-margins">
+                <div class="ibox-content">
+                    <div class="btn-group search">
+                        <button class="btn btn-white" type="button"><i class="fa fa-search"></i> 高级搜索</button>
+                        <div class="dropdown-menu">
+                            <form class="form-horizontal" action="/index/Work/planWorks" method="get">
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label">创建时间</label>
+                                    <div class="col-sm-4">
+                                        <input type="text" name="start_create" value="{$param.start_create}" class="form-control times">
+                                    </div>
+                                    <div class="col-sm-1 middle-div">至</div>
+                                    <div class="col-sm-4 f-right">
+                                        <input type="text" name="end_create" value="{$param.end_create}" class="form-control times">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label">计划状态</label>
+                                    <div class="col-sm-9">
+                                        {volist name='plan_state' id='p'}
+                                        <div class="radio radio-success radio-inline">
+                                            <input type="radio" id="state{$key}" value="{$key}" name="plan_state" {if condition="$param['plan_state'] eq $key"} checked {/if}>
+                                            <label for="state{$key}"> {$p} </label>
+                                        </div>
+                                        {/volist}
+                                    </div>
+                                </div>
+                                <div class="hr-line-dashed"></div>
+                                <div class="form-group">
+                                    <div class="col-sm-4 col-sm-offset-3">
+                                        <button class="btn btn-primary" type="submit">搜索</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    &nbsp;&nbsp;
+                    {notempty name='item_value'}
+                    {volist name='item_value' id='iv'}
+                    <span style="font-weight: lighter;">{$iv.item}：{$iv.value}&nbsp;<a href="javascript:;">X</a>&nbsp;&nbsp;</span>
+                    {/volist}
+                    {/notempty}
+                    <table class="table table-striped table-bordered table-hover">
+                        <thead>
+                        <tr>
+                            <th>序号</th>
+                            <th>计划创建时间</th>
+                            <th>计划开始时间</th>
+                            <th>计划截止时间</th>
+                            <th>计划完成时间</th>
+                            <th>服务对象</th>
+                            <th>计划状态</th>
+                            <th>操作</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        {volist name="work.data" id="vo" key='k'}
+                        <tr>
+                            <td>{$k}</td>
+                            <td>{$vo.create_time}</td>
+                            <td>{$vo.start_time}</td>
+                            <td>{$vo.end_time}</td>
+                            <td>{$vo.finish_time|default='--'}</td>
+                            <td>{$vo.userName}</td>
+                            <td>{$vo.plan_state}</td>
+                            <td>
+                                <a href="/index/Work/workDetails?id={$vo.id}">查看</a>
+                            </td>
+                        </tr>
+                        {/volist}
+                        </tbody>
+                    </table>
+                    <div class="page">{$page}</div>
+                    <div class="text-center">总共 {$work.total} 条数据</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+{include file="public/foot"/}
+<script type="text/javascript" src="__PUBLIC__js/work/work.js"></script>
+<script type="text/javascript">
+    var $search = '<?php echo json_encode($item_value); ?>';
+</script>
+</html>

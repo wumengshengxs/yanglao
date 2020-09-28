@@ -1,0 +1,52 @@
+{include file="public/head"/}
+<body class="gray-bg">
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="ibox float-e-margins">
+        <div class="ibox-content">
+            <div class="ibox-title">
+                <h5>
+                    <button class="btn btn-white btn-sm a-passage"><i class="fa fa-plus"></i> 添加通道</button>
+                </h5>
+            </div>
+            <div class="row row-lg">
+                <div class="col-sm-12">
+                    <div class="table-responsive">
+                        <table class="table table-striped table-bordered table-hover">
+                            <thead>
+                            <tr>
+                                <th>序号</th>
+                                <th>通道名称</th>
+                                <th>配置参数</th>
+                                <th>状态</th>
+                                <th>添加时间</th>
+                                <th>操作</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            {volist name='passage.data' id='p' key='k'}
+                            <tr>
+                                <td>{$k}</td>
+                                <td>{$p.name}</td>
+                                <td>{$p.param}</td>
+                                <td>{$p.status}</td>
+                                <td>{$p.create_time}</td>
+                                <td>
+                                    <button type="button" class="btn btn-white e-passage">编辑</button>
+                                </td>
+                            </tr>
+                            {/volist}
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="page">{$page} {$passage.total}条数据，共{$passage.last_page}页</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+{include file='public/foot'/}
+<script type="text/javascript" src="__PUBLIC__js/device.js"></script>
+<script type="text/javascript">
+    var $devicePassage = '<?php echo json_encode($passage["data"]); ?>';
+</script>
+</html>

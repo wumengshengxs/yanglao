@@ -1,0 +1,110 @@
+{include file='public/head'/}
+<link rel="stylesheet" href="__PUBLIC__css/client.css">
+<body class="gray-bg">
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="ibox float-e-margins">
+        <div class="ibox-title">
+            <h5>
+                <small>服务商管理&nbsp;>&nbsp;基础信息</small>
+                <a href="javascript:history.back(-1);" title="返回上一页"><i class="fa fa-reply"></i></a>
+            </h5>
+        </div>
+        <div class="ibox-content p-b-info">
+            <div class="col-sm-12 nav-tabs-client">
+                <div class="col-sm-4">
+                    <img src="{$user.head|default='/public/static/img/head.jpg'}" alt="">&nbsp;&nbsp;
+                    <span>{$details.company}</span>
+                </div>
+                <div class="col-sm-8">
+                    <ul class="nav nav-tabs"></ul>
+                </div>
+            </div>
+            <div class="col-sm-12 m-t">
+                <form class="form-horizontal">
+                    <div class="col-sm-12">
+                        <div class="col-sm-6 f-left">
+                            <h3>基础信息</h3>
+                        </div>
+                        <div class="col-sm-6 f-right text-right">
+                            <button type="button" class="btn btn-sm btn-white editBtn">编辑</button>
+                        </div>
+                        <div class="clearfix"></div>
+                        <hr/>
+                    </div>
+                    <div class="row m-t col-sm-12">
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">法人代表</label>
+                            <div class="col-sm-5">
+                                <span class="help-block m-b-none">{$details.legal_person|default='--'}</span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">法人联系方式</label>
+                            <div class="col-sm-5">
+                                <span class="help-block m-b-none">{$details.legal_mobile|default='--'}</span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">注册资金</label>
+                            <div class="col-sm-5">
+                                <span class="help-block m-b-none">{$details.registered_capital|default='--'}</span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">加盟时间</label>
+                            <div class="col-sm-5">
+                                <span class="help-block m-b-none times">{$details.join_time|default='--'}</span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">截止有效期</label>
+                            <div class="col-sm-5">
+                                <span class="help-block m-b-none times">{$details.expiry_time|default='--'}</span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">组织机构编号</label>
+                            <div class="col-sm-5">
+                                <span class="help-block m-b-none">{$details.org_code|default='--'}</span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">组织机构分类</label>
+                            <div class="col-sm-5">
+                                <span class="help-block m-b-none">{$details.org_type|default='--'}</span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">税务编号</label>
+                            <div class="col-sm-5">
+                                <span class="help-block m-b-none">{$details.tax_number|default='--'}</span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">卫生许可证编号</label>
+                            <div class="col-sm-5">
+                                <span class="help-block m-b-none">{$details.health_permit|default='--'}</span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">备注</label>
+                            <div class="col-sm-5">
+                                <span class="help-block m-b-none">{$details.remarks|default='--'}</span>
+                            </div>
+                        </div>
+                        <input type="hidden" name="id" value="{$details.id}">
+                    </div>
+                </form>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
+</body>
+{include file='public/foot'/}
+<script type="text/javascript" src="__PUBLIC__js/provider.js"></script>
+<script type="text/javascript">
+    var $details = '<?php echo json_encode($details); ?>';
+    var $userId = '<?php echo json_encode($id); ?>';
+</script>
+</html>

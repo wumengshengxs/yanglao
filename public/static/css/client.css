@@ -1,0 +1,51 @@
+hr {
+    background-color: rgba(0, 0, 0, 0.25);
+    height: 1px;
+    border: none;
+    margin-top: 0px;
+}
+
+.help-block{margin-top: 7px;}
+
+/* 服务对象的tab切换样式 */
+.nav-tabs-client {
+    padding: 0px !important;
+    border-bottom: 1px solid #2196f3 !important;
+}
+.nav-tabs-client > .col-sm-8,.col-sm-4 {
+    padding: 0px !important;
+}
+.nav-tabs-client ul {
+    border:none !important;
+    float: right !important;
+}
+.nav-tabs-client li {
+    border: 1px solid #2196f3 !important;
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+    width: 110px !important;
+    text-align: center !important;
+}
+.nav-tabs-client li:not(.active) a:hover {
+    background: white !important;
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+}
+.nav-tabs-client .active,button.active {
+    border: 1px solid #2196f3 !important;
+    background: #2196f3 !important;
+}
+.nav-tabs-client .active a {
+    border:none !important;
+    color: white !important;
+}
+
+img {
+    width:32px;
+    height:32px;
+    border-radius: 16px;
+}
+.nav-tabs-client .col-sm-4 span {
+    vertical-align: bottom;
+    font-size: 16px;
+}

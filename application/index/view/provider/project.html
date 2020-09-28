@@ -1,0 +1,58 @@
+{include file="public/head"/}
+<body class="gray-bg">
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="ibox float-e-margins">
+        <div class="ibox-content">
+            <div class="row row-lg">
+                <div class="col-sm-12">
+                    <div class="m-b">
+                        <span style="font-size: 18px;">{$details.name}</span>&nbsp;&nbsp;
+                        <button class="btn btn-white btn-sm a-p-project"><i class="fa fa-plus"></i>&nbsp;添加一级类目</button>
+                    </div>
+                    <hr/>
+                </div>
+                {volist name='project' id='p'}
+                <div class="col-sm-12 m-b-lg">
+                    <div class="col-sm-12">
+                        <div class="col-sm-6 font-bold"><h3>{$p.name}</h3></div>
+                        <div class="col-sm-6 text-right">
+                            <button class="btn btn-white btn-xs e-p-project" data-id="{$p.id}"><i class="fa fa-plus"></i> 编辑</button>
+                            <button class="btn btn-white btn-xs d-p-project" data-id="{$p.id}"><i class="fa fa-plus"></i> 删除</button>
+                            <button class="btn btn-white btn-xs a-p-project" data-id="{$p.id}"><i class="fa fa-plus"></i> 添加二级类目</button>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 table-responsive">
+                        <table class="table table-striped table-bordered table-hover">
+                            <thead class="">
+                            <tr>
+                                <th class="col-sm-2">二级类目</th>
+                                <th class="col-sm-8">备注</th>
+                                <th class="col-sm-2">操作</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            {volist name='p.nodes' id='n'}
+                            <tr>
+                                <td>{$n.name}</td>
+                                <td>{$n.remarks|default='--'}</td>
+                                <td>
+                                    <a href="javascript:;" data-id="{$n.id}" class="e-p-project">编辑</a>&nbsp;&nbsp;
+                                    <a href="javascript:;" data-id="{$n.id}" class="d-p-project">删除</a>
+                                </td>
+                            </tr>
+                            {/volist}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                {/volist}
+            </div>
+        </div>
+    </div>
+</body>
+{include file='public/foot'/}
+<script type="text/javascript" src="__PUBLIC__js/provider.js"></script>
+<script type="text/javascript">
+    var $project = '<?php echo json_encode($project); ?>';
+</script>
+</html>

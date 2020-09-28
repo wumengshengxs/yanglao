@@ -1,0 +1,175 @@
+{include file='public/head'/}
+<link rel="stylesheet" href="__PUBLIC__js/plugins/layui/css/modules/laydate/default/laydate.css">
+<body class="gray-bg">
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="ibox float-e-margins">
+        <div class="ibox-content">
+            <div class="ibox-title">
+                <h5>
+                    <div class="btn-group search">
+                        <button class="btn btn-white" type="button"><i class="fa fa-search"></i> 高级搜索</button>
+                        <div class="dropdown-menu">
+                            <form class="form-horizontal" action="/index/Healthy/index" method="get">
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label">姓名</label>
+                                    <div class="col-sm-9">
+                                        <input type="text" name="name" value="{$param.name}" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label">个人手机号</label>
+                                    <div class="col-sm-9">
+                                        <input type="text" name="mobile" value="{$param.mobile}" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label">身份证</label>
+                                    <div class="col-sm-9">
+                                        <input type="text" name="id_number" value="{$param.id_number}" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label">年龄</label>
+                                    <div class="col-sm-4">
+                                        <input type="text" name="start_age" value="{$param.start_age}" class="form-control">
+                                    </div>
+                                    <div class="col-sm-1 middle-div">至</div>
+                                    <div class="col-sm-4 f-right">
+                                        <input type="text" name="end_age" value="{$param.end_age}" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label">创建时间</label>
+                                    <div class="col-sm-4">
+                                        <input type="text" name="start_create" id="start_create" value="{$param.start_create}" class="form-control">
+                                    </div>
+                                    <div class="col-sm-1 middle-div">至</div>
+                                    <div class="col-sm-4 f-right">
+                                        <input type="text" name="end_create" id="end_create" value="{$param.end_create}" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label">出生日期</label>
+                                    <div class="col-sm-4">
+                                        <input type="text" name="start_birthday" id="start_birthday" value="{$param.start_birthday}" class="form-control">
+                                    </div>
+                                    <div class="col-sm-1 middle-div">至</div>
+                                    <div class="col-sm-4 f-right">
+                                        <input type="text" name="end_birthday" id="end_birthday" value="{$param.end_birthday}" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label">性别</label>
+                                    <div class="col-sm-9">
+                                        <div class="radio radio-success radio-inline">
+                                            <input type="radio" id="s-sex1" value="1" name="sex" {if condition="$param['sex'] eq 1"} checked {/if} >
+                                            <label for="s-sex1"> 男 </label>
+                                        </div>
+                                        <div class="radio radio-success radio-inline">
+                                            <input type="radio" id="s-sex2" value="2" name="sex" {if condition="$param['sex'] eq 2"} checked {/if} >
+                                            <label for="s-sex2"> 女 </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label">分组</label>
+                                    <div class="col-sm-9">
+                                        <select name="group[]" data-placeholder="请选择分组" class="form-control chosen-group" multiple tabindex="4"></select>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label">标签</label>
+                                    <div class="col-sm-9">
+                                        <select name="tag[]" data-placeholder="请选择标签" class="form-control chosen-tag" multiple tabindex="4"></select>
+                                    </div>
+                                </div>
+                                <!--<div class="form-group">-->
+                                <!--<label class="col-sm-3 control-label">腕表是否发放</label>-->
+                                <!--<div class="col-sm-9">-->
+                                <!--<div class="radio radio-success radio-inline">-->
+                                <!--<input type="radio" id="iswatch_send1" value="1" name="iswatch_send">-->
+                                <!--<label for="iswatch_send1"> 是 </label>-->
+                                <!--</div>-->
+                                <!--<div class="radio radio-success radio-inline">-->
+                                <!--<input type="radio" id="iswatch_send2" value="2" name="iswatch_send">-->
+                                <!--<label for="iswatch_send2"> 否 </label>-->
+                                <!--</div>-->
+                                <!--</div>-->
+                                <!--</div>-->
+                                <!--<div class="form-group">-->
+                                <!--<label class="col-sm-3 control-label">腕表发放时间</label>-->
+                                <!--<div class="col-sm-4">-->
+                                <!--<input type="text" name="start_send_time" value="{$param.start_send_time}" class="form-control">-->
+                                <!--</div>-->
+                                <!--<div class="col-sm-1 middle-div">至</div>-->
+                                <!--<div class="col-sm-4 f-right">-->
+                                <!--<input type="text" name="end_send_time" value="{$param.end_send_time}" class="form-control">-->
+                                <!--</div>-->
+                                <!--</div>-->
+                                <div class="hr-line-dashed"></div>
+                                <div class="form-group">
+                                    <div class="col-sm-4 col-sm-offset-2">
+                                        <button class="btn btn-primary" type="submit">搜索</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>&nbsp;&nbsp;
+                    {notempty name='item_value'}
+                    {volist name='item_value' id='iv'}
+                    <span style="font-weight: lighter;">{$iv.item}：{$iv.value}&nbsp;<a href="javascript:;">X</a>&nbsp;&nbsp;</span>
+                    {/volist}
+                    {/notempty}
+                </h5>
+            </div>
+            <div class="row row-lg">
+                <div class="col-sm-12">
+                    <div class="table-responsive">
+                        <table class="table table-striped table-bordered table-hover">
+                            <thead>
+                            <tr>
+                                <th>序号</th>
+                                <th>姓名</th>
+                                <th>分组</th>
+                                <th>标签</th>
+                                <th>年龄</th>
+                                <th>既往病史</th>
+                                <th>药物过敏</th>
+                                <th>电子病历</th>
+                                <th>操作</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            {volist name='healthy.data' id='h' key='k'}
+                            <tr>
+                                <td>{$k}</td>
+                                <td><a href="/index/Client/healthy?view=healthyBase&id={$h.clientId}" title="点击查看详情">{$h.clientName}</a></td>
+                                <td>{$h.groupName|default='--'}</td>
+                                <td>{$h.tagName|default='--'}</td>
+                                <td>{$h.age}</td>
+                                <td>{$h.medicine_history}</td>
+                                <td>{$h.allergy}</td>
+                                <td>{$h.case}</td>
+                                <td>
+                                    <a href="/index/Client/healthy?view=healthyBase&id={$h.clientId}">详情</a>
+                                </td>
+                            </tr>
+                            {/volist}
+                            </tbody>
+                        </table>
+                        <div class="page">{$page} <div>{$healthy.last_page}页，总共{$healthy.total}条数据</div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+{include file='public/foot'/}
+<script type="text/javascript" src="__PUBLIC__js/plugins/layui/lay/modules/laydate.js"></script>
+<script type="text/javascript" src="__PUBLIC__js/client.js"></script>
+<script type="text/javascript">
+    var $search = '<?php echo json_encode($item_value); ?>',
+        $selectedGroup = '<?php echo json_encode($param["group"]); ?>',
+        $selectedTag = '<?php echo json_encode($param["tag"]); ?>';
+</script>
+</html>

@@ -1,0 +1,116 @@
+{include file="public/head"/}
+<link rel="stylesheet" type="text/css" href="__PUBLIC__js/plugins/layui/css/layui.css">
+<body class="gray-bg">
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="ibox float-e-margins">
+        <div class="ibox-title">
+            <h5>
+                <small>服务商管理&nbsp;&gt;&nbsp;添加服务商</small>
+                <a href="javascript:history.back(-1);" title="返回上一页"><i class="fa fa-reply"></i></a>
+            </h5>
+        </div>
+        <div class="ibox-content">
+            <form class="form-horizontal a-u-provider">
+                <input type="hidden" name="id" value="{$details.id}">
+                <div class="form-group">
+                    <label class="col-sm-4 control-label">* 服务商名称</label>
+                    <div class="col-sm-4">
+                        <input type="text" name="name" value="{$details.name}" class="form-control" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-4 control-label">简称</label>
+                    <div class="col-sm-4">
+                        <input type="text" name="short_name" value="{$details.short_name}" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-4 control-label">* 联系人名称</label>
+                    <div class="col-sm-4">
+                        <input type="text" name="contacts" value="{$details.contacts}" class="form-control" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-4 control-label">* 联系人电话</label>
+                    <div class="col-sm-4">
+                        <input type="text" name="contacts_mobile" value="{$details.contacts_mobile}" class="form-control" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-4 control-label">* 企业地址</label>
+                    <div class="col-sm-4">
+                        <input type="text" name="address" value="{$details.address}" class="form-control" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-4 control-label">法人代表</label>
+                    <div class="col-sm-4">
+                        <input type="text" name="legal_person" value="{$details.legal_person}" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-4 control-label">法人代表联系方式</label>
+                    <div class="col-sm-4">
+                        <input type="text" name="legal_mobile" value="{$details.legal_mobile}" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-4 control-label">注册资金</label>
+                    <div class="col-sm-4">
+                        <input type="text" name="registered_capital" value="{$details.registered_capital}" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-4 control-label">加盟时间</label>
+                    <div class="col-sm-4">
+                        <input type="text" name="join_time" value="{$details.join_time}" id="join_time" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-4 control-label">截止有效期</label>
+                    <div class="col-sm-4">
+                        <input type="text" name="expiry_time" value="{$details.expiry_time}" id="expiry_time" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-4 control-label">组织机构编号</label>
+                    <div class="col-sm-4">
+                        <input type="text" name="org_code" value="{$details.org_code}" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-4 control-label">组织机构分类</label>
+                    <div class="col-sm-4">
+                        <input type="text" name="org_type" value="{$details.org_type}" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-4 control-label">税务编号</label>
+                    <div class="col-sm-4">
+                        <input type="text" name="tax_number" value="{$details.tax_number}" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-4 control-label">卫生许可证编号</label>
+                    <div class="col-sm-4">
+                        <input type="text" name="health_permit" value="{$details.health_permit}" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-4 control-label">备注</label>
+                    <div class="col-sm-4">
+                        <textarea name="remarks" cols="30" rows="3" class="form-control"></textarea>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-4 col-sm-offset-5">
+                        <button class="btn btn-primary" type="submit">保存</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+{include file='public/foot'/}
+<script type="text/javascript" src="__PUBLIC__js/provider.js"></script>
+</html>

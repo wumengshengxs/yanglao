@@ -1,0 +1,8 @@
+/**
+ * 工单样式
+*/
+.staff div {text-align: center;padding: 0px;margin: 10px;border: 1px solid #aaa;border-radius: 5px;}
+.staff div:hover{cursor: pointer;}
+.staff .active {background-color: #2196f3;color: white;}
+.staff hr {margin: 0px;border: 0.5px solid #aaa;}
+.staff p:nth-child(4) {font-size: 18px;}

@@ -1,0 +1,105 @@
+/* 清除浏览器自动补全的样式 */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+    box-shadow:0 0 0 60px #FFF inset;
+    -webkit-text-fill-color: #878787;
+}
+
+/* 禁止横向移动 */
+textarea{resize:vertical;}
+
+.btn-primary {background-color: dodgerblue !important;}
+
+/* table居中 */
+.table tr,th {text-align: center !important;}
+.table thead th {background-color: dodgerblue !important;color: white !important;}
+
+/* tab切换样式修改 */
+.nav-tabs .active a{border:none !important;border-bottom: 2px solid green !important;}
+.panel-heading{padding-left:0px;padding-right:0px;}
+.panel-body {border:none !important;padding:0px 0px !important;}
+
+/* model框样式修改 */
+.modal-content {margin-top:50px;}
+.modal-header {padding:10px 30px !important;margin-bottom:20px;}
+.modal-header h1 {text-align: left;font-size: 14px !important;color: #333;}
+.modal-body {background: white !important;padding:0px 30px;}
+.modal-footer {border-top: none;}
+.modal-backdrop {opacity: 0.3 !important;}
+
+/* tree样式 */
+.node-hidden{display: none;}
+.treeview .btn{padding: 3px 6px;top:-3px;margin:0px 2px;}
+
+/* layer的msg弹窗显示位置 */
+.layui-layer-msg {top:30% !important;}
+/* 分页样式修改 */
+.page{text-align: center; !important;}
+.page .active span{background: #337AB7 !important;color: white !important;}
+
+/**
+ * 上传样式修改
+*/
+.upload-file {display:inline-block;margin:0 0 0 0 !important;position:relative;}
+.upload-file img {width:32px;height:32px;}
+.upload-file div {opacity: 0;position: absolute;top: 0px;width: 100%;height: 100%;cursor: pointer;}
+.upload-file input {opacity: 0;display: none;}
+.layui-upload-file {display: none !important;}
+
+/**
+ * 多图上传样式
+*/
+.multiple-upload {position: relative;width: 200px;height: 100px;vertical-align:top;}
+.multiple-upload a{position:absolute;color: red;z-index: 999999;top:5px;right:10px;}
+.multiple-upload img{width:200px;height:100px;position:absolute;border-radius: unset;}
+
+/**
+ * 已添加的过敏药物样式
+*/
+.c-allergy form .form-group {margin-bottom: 25px;}
+.c-allergy form .form-group:first-child {border: 1px solid #aaaaaa;border-radius: 20px;padding: 20px;}
+.c-allergy form .form-group:first-child span {display: inline-block;margin: 0px 10px;}
+.c-allergy form .form-group:first-child a {color: red;font-size: 18px;font-weight: 700;}
+
+/**
+ * 多条件搜索样式
+*/
+.search .dropdown-menu {width:600px;left:0px;padding-top:10px;padding-right: 10px;box-shadow: rgba(0,0,0,0.3) 0px 0px 21px 0px;}
+.middle-div {line-height: 35px;}
+
+/**
+ * validate错误提示
+*/
+.error-div {display: none;position: fixed;top:30px;margin-left:45%;z-index: 999999;}
+.error-div span {display: block;;padding: 10px;color: #a94442;text-align: center;background-color: bisque;border-radius: 5px;margin-bottom:10px;}
+
+.f-left {float: left;}
+.f-right {float: right;}
+
+/**
+ * 穿梭框样式
+*/
+.transfer-frame .modal-dialog {width:1000px !important;}
+.transfer-frame .modal-body {padding:0px;}
+.transfer-frame .t-f-t-left {width:360px;padding: 0px;border-right: 1px solid #aaaaaa;height: 600px;display: inline-table;}
+.transfer-frame .t-f-t-left > div:first-child {line-height: 40px;background-color: #dddddd;padding: 0 10px;color: black;border-bottom: 1px solid #aaaaaa;}
+.transfer-frame .t-f-middle {display: inline-table;}
+.transfer-frame .t-f-middle .t-f-m-left {width:80px;height: 380px;list-style: none;overflow-y: hidden;overflow-y: scroll;display: inline-block;}
+.transfer-frame .t-f-middle .t-f-m-left p {text-align: center;}
+.transfer-frame .t-f-middle .t-f-m-left p:hover {cursor: pointer;color: #337ab7;}
+.transfer-frame .t-f-middle .t-f-m-right {width:249px;display: inline-block;}
+.transfer-frame .t-f-m-right .t-f-m-right-table {width:100%;height: 380px;overflow-y: hidden;overflow-y: scroll;}
+.transfer-frame .t-f-m-right table a {color: #23527c;}
+.transfer-frame .t-f-m-right .checked {color: #dddddd;}
+.transfer-frame .t-f-m-bottom {text-align:-webkit-center;}
+.transfer-frame .t-f-t-right {width:642px;padding: 0px;border-right: 1px solid #aaaaaa;height: 600px;display: inline-table;margin-left:-4px;}
+.transfer-frame .t-f-t-right > div:first-child {line-height: 40px;background-color: #dddddd;padding: 0 10px;color: black;border-bottom: 1px solid #aaaaaa;}
+.transfer-frame .t-f-t-right > div:last-child {height:530px;overflow-y:hidden;overflow-y:scroll;}
+.transfer-frame .active {color: #23527c;}
+.transfer-frame .t-f-bottom {border-top: 1px solid #aaaaaa;line-height: 50px;background-color: #dddddd;}
+
+/**
+ * 选择框样式修改
+*/
+.radio label, .checkbox label {line-height: initial;}

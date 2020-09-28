@@ -1,0 +1,54 @@
+{include file="public/head"/}
+<body class="gray-bg">
+<div class="row wrapper wrapper-content animated fadeInRight">
+    <div class="ibox float-e-margins">
+        <div class="ibox-content">
+            <div class="ibox-title">
+                <h5>
+                    <button class="btn btn-white btn-sm" onclick="addMenu(this)"><i class="fa fa-plus"></i> 添加分类</button>
+                </h5>
+            </div>
+            <div class="row row-lg">
+                <div class="col-sm-12">
+                    <div class="ibox float-e-margins">
+                        <div class="ibox-content">
+                            <div id="tree" class="test"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{include file="public/foot"/}
+<script src="__PUBLIC__js/plugins/treeview/bootstrap-treeview.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/auth.js"></script>
+</body>
+<script type="text/javascript">
+    function delMenu(obj){
+        var mid = $(obj).parent().attr('id');
+        console.log(mid);
+        layer.confirm(
+            '确定该菜单?',
+            {
+                btn : ['确定', '取消'],
+                offset: '20%',
+                shadeClose: true,
+                btn1:function(obj){
+                    $(".layui-layer-btn0").attr('disabled',true);
+                    $.post('/index/Auth/delmenu',{'id':mid},function(data){
+                        if(data.code == 0){
+                            layer.msg(data.msg,{icon:1,time:2000},function(){
+                                location.reload();
+                            })
+                            return false;
+                        }
+                        layer.msg(data.msg,{icon:5,time:2000},function(){
+                            $(".layui-layer-btn0").attr('disabled',false);
+                        })
+                    })
+                },
+            })
+    }
+</script>
+</html>

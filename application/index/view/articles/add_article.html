@@ -1,0 +1,126 @@
+{include file='public/head'}
+
+<body class="gray-bg">
+<div class="wrapper wrapper-content animated fadeInRight">
+    <!-- 权限菜单 -->
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <h5>
+                        <a href="javascript:history.go(-1)">
+                            健康资讯列表&nbsp;&nbsp;<i class='fa fa-angle-double-right'></i>
+                        </a>
+                        <label>资讯文章</label>
+                    </h5>
+                </div>
+                <div class="ibox-content">
+                    <form class="form-horizontal" id="signupForm" >
+
+
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">资讯标题</label>
+                            <div class="col-sm-10">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <input type="text" class="form-control" placeholder='请输入资讯标题' name='title'  value="{$article.title}" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">资讯类型</label>
+                            <div class="col-sm-10">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <select class="form-control m-b" name="gid" >
+                                            <option value="" >请选择</option>
+
+                                            {volist name="list" id="vos"}
+                                            <option value="{$vos.id}" disabled>{$vos.name}</option>
+                                                {volist name="vos.nodes" id="vo"}
+                                                    <option value="{$vo.id}" {if condition="$article.gid eq $vo.id"}selected{/if} > ∟{$vo.name}</option>
+                                                {/volist}
+                                            {/volist}
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">排序</label>
+                            <div class="col-sm-10">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <input type="number" class="form-control" placeholder='排序越大越靠前' name='weight'  value="{$article.weight}" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">是否发布</label>
+                            <div class="col-sm-10">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="radio radio-info radio-inline">
+                                            <input type="radio" id="inlineRadio1" value="1" name="state" {if condition="$article.state eq 1 or $article.state eq 0"}checked{/if}>
+                                            <label for="inlineRadio1">立即发布</label>
+                                        </div>
+                                        <div class="radio radio-inline">
+                                            <input type="radio" id="inlineRadio2" value="2" name="state" {if condition="$article.state eq 2"}checked{/if}>
+                                            <label for="inlineRadio2">暂不发布</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">内容</label>
+                            <div class="col-sm-7">
+                                <script id="editor" name="content" type="text/plain" style="width:100%;height:300px;">{$article.content}</script></div>
+
+                                </div>
+
+                        <input type="hidden" name="id" value="{$article.id}">
+
+                        <div class="form-group">
+                            <div class="col-sm-4 col-sm-offset-2">
+                                <a class="btn btn-primary"  onclick="onArticle()">保存</a>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
+
+{include file='public/foot'}
+<script type="text/javascript" charset="utf-8" src="__PUBLIC__js/umeditor/ueditor.config.js"></script>
+<script type="text/javascript" charset="utf-8" src="__PUBLIC__js/umeditor/ueditor.all.min.js"> </script>
+<script type="text/javascript" charset="utf-8" src="__PUBLIC__js/umeditor/lang/zh-cn/zh-cn.js"></script>
+<script type="text/javascript" charset="utf-8" src="__PUBLIC__js/umeditor/third-party/codemirror/codemirror.js"></script>
+<script type="text/javascript" charset="utf-8" src="__PUBLIC__js/umeditor/third-party/zeroclipboard/ZeroClipboard.js"></script>
+
+<script type="text/javascript" src="__PUBLIC__/js/articles/article.js"></script>
+<script>
+    var um = UE.getEditor('editor',{
+        toolbars: [
+            ['fullscreen', 'source', 'undo', 'redo'],
+            ['bold', 'italic','justifyjustify','justifyleft','justifyright','justifycenter', 'underline', 'fontborder','simpleupload','link','emotion','spechars','forecolor',  'strikethrough', 'superscript', 'subscript', 'removeformat', 'formatmatch', 'autotypeset', 'blockquote', 'pasteplain', '|', 'forecolor', 'backcolor', 'insertorderedlist', 'insertunorderedlist', 'selectall', 'cleardoc']
+        ]
+    });
+</script>
+
+
+
+
+
+

@@ -1,0 +1,1729 @@
+---------------------------------------------------------------
+[ 2019-03-27T09:31:14+08:00 ] 127.0.0.1 GET yunchi.cn/server/Index/index
+[运行时间：0.038193s] [吞吐率：26.18req/s] [内存消耗：1,900.69kb] [文件加载：101]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'server',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yunchi.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  '/server/Index/index' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-27T09:31:14+08:00 ] 127.0.0.1 GET yunchi.cn/server/Login/login
+[运行时间：0.016744s] [吞吐率：59.72req/s] [内存消耗：1,901.83kb] [文件加载：100]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'server',
+    1 => 'Login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yunchi.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=19ec43cf46ddbf485ea319bcdca8871f',
+)
+[ info ] [ PARAM ] array (
+  '/server/Login/login' => '',
+)
+[ info ] [ RUN ] app\server\controller\Login->login[ /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/server/controller/Login.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/server/view/login/login.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-27T09:31:14+08:00 ] 127.0.0.1 GET yunchi.cn/favicon.ico
+[运行时间：0.014065s] [吞吐率：71.10req/s] [内存消耗：1,615.48kb] [文件加载：94]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yunchi.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://yunchi.cn/server/Login/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=19ec43cf46ddbf485ea319bcdca8871f',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-27T09:37:05+08:00 ] 127.0.0.1 POST yunchi.cn/server/Login/checkLogin
+[运行时间：0.113366s] [吞吐率：8.82req/s] [内存消耗：2,978.64kb] [文件加载：108]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'server',
+    1 => 'Login',
+    2 => 'checkLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yunchi.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '27',
+  'accept' => '*/*',
+  'origin' => 'http://yunchi.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://yunchi.cn/server/Login/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=19ec43cf46ddbf485ea319bcdca8871f',
+)
+[ info ] [ PARAM ] array (
+  '/server/Login/checkLogin' => '',
+  'name' => 'yunchi',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\server\controller\Login->checkLogin[ /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/server/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.062221s ] mysql:host=101.89.115.24;port=3306;dbname=pension;charset=utf8
+[ sql ] [ SQL ] SELECT `id`,`name`,`company`,`mobile` FROM yc_provider WHERE `name`='yunchi' AND `password`='81bf0687697f0165bd5629fca568acb0' [ RunTime:0.020031s ]
+---------------------------------------------------------------
+[ 2019-03-27T09:37:05+08:00 ] 127.0.0.1 GET yunchi.cn/server/Index/index
+[运行时间：0.019625s] [吞吐率：50.96req/s] [内存消耗：2,286.23kb] [文件加载：107]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'server',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yunchi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://yunchi.cn/server/Login/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=19ec43cf46ddbf485ea319bcdca8871f',
+)
+[ info ] [ PARAM ] array (
+  '/server/Index/index' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\server\controller\Index->index[ /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/server/controller/Index.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/server/view/index/index.html [ array (
+  0 => 'menu',
+  1 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: nodes[/Applications/XAMPP/xamppfiles/htdocs/pension_project/runtime/temp/5bdcace69d1ed0141766d91547e5085d.php:59]
+[ error ] [8]未定义数组索引: nodes[/Applications/XAMPP/xamppfiles/htdocs/pension_project/runtime/temp/5bdcace69d1ed0141766d91547e5085d.php:59]
+[ error ] [8]未定义数组索引: nodes[/Applications/XAMPP/xamppfiles/htdocs/pension_project/runtime/temp/5bdcace69d1ed0141766d91547e5085d.php:59]
+---------------------------------------------------------------
+[ 2019-03-27T09:37:05+08:00 ] 127.0.0.1 GET yunchi.cn/server/Index/main
+[运行时间：0.017056s] [吞吐率：58.63req/s] [内存消耗：1,937.18kb] [文件加载：104]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'server',
+    1 => 'Index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yunchi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://yunchi.cn/server/Index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=19ec43cf46ddbf485ea319bcdca8871f',
+)
+[ info ] [ PARAM ] array (
+  '/server/Index/main' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\server\controller\Index->main[ /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/server/controller/Index.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/server/view/index/main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: title[/Applications/XAMPP/xamppfiles/htdocs/pension_project/runtime/temp/cc2ae653de3e86cd9ed5bc94893bdfe2.php:7]
+---------------------------------------------------------------
+[ 2019-03-27T13:31:40+08:00 ] 127.0.0.1 GET yunchi.cn/index/Index/index
+[运行时间：0.021622s] [吞吐率：46.25req/s] [内存消耗：1,914.70kb] [文件加载：101]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yunchi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=19ec43cf46ddbf485ea319bcdca8871f',
+)
+[ info ] [ PARAM ] array (
+  '/index/Index/index' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-27T13:31:40+08:00 ] 127.0.0.1 GET yunchi.cn/index/Login/login
+[运行时间：0.016454s] [吞吐率：60.78req/s] [内存消耗：1,911.73kb] [文件加载：100]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yunchi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=19ec43cf46ddbf485ea319bcdca8871f',
+)
+[ info ] [ PARAM ] array (
+  '/index/Login/login' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Login->login[ /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/controller/Login.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/view/login/login.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-27T13:31:44+08:00 ] 127.0.0.1 POST yunchi.cn/index/Login/checkLogin
+[运行时间：0.078421s] [吞吐率：12.75req/s] [内存消耗：2,461.49kb] [文件加载：106]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Login',
+    2 => 'checkLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yunchi.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '33',
+  'accept' => '*/*',
+  'origin' => 'http://yunchi.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://yunchi.cn/index/Login/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=19ec43cf46ddbf485ea319bcdca8871f',
+)
+[ info ] [ PARAM ] array (
+  '/index/Login/checkLogin' => '',
+  'name' => 'admin',
+  'password' => '123456',
+  'type' => '0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Login->checkLogin[ /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.035027s ] mysql:host=101.89.115.24;port=3306;dbname=pension;charset=utf8
+[ sql ] [ SQL ] SELECT `id`,`name`,`mobile`,`email`,`r_id`,`is_super`,`remarks`,`create_time` FROM yc_user WHERE `name`='admin' AND `password`='81bf0687697f0165bd5629fca568acb0' [ RunTime:0.019981s ]
+---------------------------------------------------------------
+[ 2019-03-27T13:31:44+08:00 ] 127.0.0.1 GET yunchi.cn/index/Index/index
+[运行时间：0.095927s] [吞吐率：10.42req/s] [内存消耗：2,855.67kb] [文件加载：115]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yunchi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://yunchi.cn/index/Login/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=19ec43cf46ddbf485ea319bcdca8871f',
+)
+[ info ] [ PARAM ] array (
+  '/index/Index/index' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/view/index/index.html [ array (
+  0 => 'menu',
+  1 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.026559s ] mysql:host=101.89.115.24;port=3306;dbname=pension;charset=utf8
+[ sql ] [ SQL ] SELECT `name`,`remarks`,`m_id`,`r_status` FROM yc_role WHERE `id`=0 [ RunTime:0.020488s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`url`,`icon`,`pid`,`level`,`m_status`,`weight`,`create_time` FROM yc_menu  WHERE  `m_status`=1 ORDER BY `weight` ASC,`id` ASC [ RunTime:0.018352s ]
+[ error ] [8]未定义数组下标: 0[/Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/model/Role.php:49]
+---------------------------------------------------------------
+[ 2019-03-27T13:31:44+08:00 ] 127.0.0.1 GET yunchi.cn/index/Index/main
+[运行时间：0.209700s] [吞吐率：4.77req/s] [内存消耗：3,411.88kb] [文件加载：120]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yunchi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://yunchi.cn/index/Index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=19ec43cf46ddbf485ea319bcdca8871f',
+)
+[ info ] [ PARAM ] array (
+  '/index/Index/main' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->main[ /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/view/index/main.html [ array (
+  0 => 'gency',
+  1 => 'clientIntegral',
+  2 => 'sumIntegralRecords',
+  3 => 'birthday',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.030627s ] mysql:host=101.89.115.24;port=3306;dbname=pension;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_work` [ RunTime:0.023185s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yc_work` `w` LEFT JOIN `yc_client` `c` ON `w`.`client_id`=`c`.`id` LEFT JOIN `yc_staff_user` `s` ON `w`.`staff_number`=`s`.`number` WHERE  `type` IN (1,2,3) LIMIT 1 [ RunTime:0.017337s ]
+[ sql ] [ SQL ] SELECT w.id,w.title,w.staff_number,w.plan_id,w.client_id,w.type,w.state,w.create_time,(case when w.plan_id!=0 then (select name from yc_work_plan where id=w.plan_id) else 0 end) as plan_title,(case when w.state=5 then (select concat_ws(";",call_result,create_time) from yc_work_log where w_id=w.id order by id desc limit 1) else 0 end) as work_log,c.name as userName,s.display_name FROM `yc_work` `w` LEFT JOIN `yc_client` `c` ON `w`.`client_id`=`c`.`id` LEFT JOIN `yc_staff_user` `s` ON `w`.`staff_number`=`s`.`number` WHERE  `type` IN (1,2,3) ORDER BY `w`.`id` DESC LIMIT 0,5 [ RunTime:0.019174s ]
+[ sql ] [ SQL ] SELECT SUM(`integral`) AS integral,MAX(`integral`) AS max,MIN(`integral`) AS `min`,COUNT(`id`) AS total FROM yc_client [ RunTime:0.017975s ]
+[ sql ] [ SQL ] SELECT `type`,SUM(`score`) AS score,COUNT(`id`) AS total FROM yc_integral  GROUP BY `type` [ RunTime:0.029364s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_client` [ RunTime:0.015793s ]
+[ sql ] [ SQL ] SELECT `birthday`,`id`,`name`,`head`,`age` FROM `yc_client` [ RunTime:0.023543s ]
+[ error ] [8]未定义变量: arr[/Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/model/Main.php:194]
+[ error ] [8]未定义变量: title[/Applications/XAMPP/xamppfiles/htdocs/pension_project/runtime/temp/b91db48711266ab571f6724bfca8e2eb.php:7]
+---------------------------------------------------------------
+[ 2019-03-27T13:31:44+08:00 ] 127.0.0.1 POST yunchi.cn/index/Work/mess.html
+[运行时间：0.175179s] [吞吐率：5.71req/s] [内存消耗：3,228.08kb] [文件加载：111]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Work',
+    2 => 'mess',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yunchi.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => '*/*',
+  'origin' => 'http://yunchi.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'referer' => 'http://yunchi.cn/index/Index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=19ec43cf46ddbf485ea319bcdca8871f',
+)
+[ info ] [ PARAM ] array (
+  '/index/Work/mess_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Work->mess[ /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/controller/Work.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.028349s ] mysql:host=101.89.115.24;port=3306;dbname=pension;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_work` [ RunTime:0.019051s ]
+[ sql ] [ SQL ] SELECT group_concat(id) as id,type FROM `yc_work` WHERE  `is_read` = 1  AND `type` IN (1,2,3) GROUP BY `type` [ RunTime:0.015125s ]
+---------------------------------------------------------------
+[ 2019-03-27T13:31:45+08:00 ] 127.0.0.1 GET yunchi.cn/index/Index/main_echarts
+[运行时间：0.401924s] [吞吐率：2.49req/s] [内存消耗：3,196.17kb] [文件加载：112]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'main_echarts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yunchi.cn',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'referer' => 'http://yunchi.cn/index/Index/main',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=19ec43cf46ddbf485ea319bcdca8871f',
+)
+[ info ] [ PARAM ] array (
+  '/index/Index/main_echarts' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->main_echarts[ /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.047259s ] mysql:host=101.89.115.24;port=3306;dbname=pension;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_work` [ RunTime:0.024034s ]
+[ sql ] [ SQL ] SELECT count(id) as number,state FROM `yc_work` WHERE  `state` IN (1,2,3,4,5) GROUP BY `state` [ RunTime:0.020881s ]
+[ sql ] [ SQL ] SELECT from_unixtime(create_time,'%Y-%m-%d') as name,count(id) as value FROM `yc_work` WHERE  `create_time` BETWEEN 1553097600 AND 1553702399 GROUP BY `name` [ RunTime:0.024633s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_client` [ RunTime:0.022389s ]
+[ sql ] [ SQL ] SELECT count(id) as number,sex FROM `yc_client` GROUP BY `sex` [ RunTime:0.032932s ]
+[ sql ] [ SQL ] select name,count('id') as value from (select case when age<=59 then '60岁以下' when age>=60 and age<=69 then '60到69岁之间' when age>=70 and age<=79 then '70到79之间' when age>=80 and age<=89 then '80到89之间' when age>=90 then '90岁以上' end as name from yc_client )a group by name [ RunTime:0.088791s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_client_group` [ RunTime:0.059844s ]
+[ sql ] [ SQL ] SELECT a.name,count(b.cid) as value FROM yc_client_group a LEFT JOIN `yc_client_group_map` `b` ON `a`.`id`=`b`.`gid` GROUP BY `a`.`id` [ RunTime:0.052665s ]
+---------------------------------------------------------------
+[ 2019-03-27T13:31:48+08:00 ] 127.0.0.1 GET yunchi.cn/index/Work/quality
+[运行时间：0.123911s] [吞吐率：8.07req/s] [内存消耗：3,325.90kb] [文件加载：115]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Work',
+    2 => 'quality',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yunchi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://yunchi.cn/index/Index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=19ec43cf46ddbf485ea319bcdca8871f',
+)
+[ info ] [ PARAM ] array (
+  '/index/Work/quality' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Work->quality[ /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/controller/Work.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/view/work/quality.html [ array (
+  0 => 'work',
+  1 => 'page',
+  2 => 'param',
+  3 => 'item_value',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.031858s ] mysql:host=101.89.115.24;port=3306;dbname=pension;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_work` [ RunTime:0.018890s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yc_work` `w` LEFT JOIN `yc_client` `c` ON `w`.`client_id`=`c`.`id` LEFT JOIN `yc_staff_user` `s` ON `w`.`staff_number`=`s`.`number` WHERE  `w`.`is_check` = 1  AND `w`.`state` = 5 LIMIT 1 [ RunTime:0.022934s ]
+[ sql ] [ SQL ] SELECT w.id,w.title,w.staff_number,w.plan_id,w.client_id,w.type,w.state,w.create_time,(case when w.plan_id!=0 then (select name from yc_work_plan where id=w.plan_id) else 0 end) as plan_title,(case when w.state=5 then (select concat_ws(";",call_result,create_time) from yc_work_log where w_id=w.id order by id desc limit 1) else 0 end) as work_log,c.name as userName,s.display_name FROM `yc_work` `w` LEFT JOIN `yc_client` `c` ON `w`.`client_id`=`c`.`id` LEFT JOIN `yc_staff_user` `s` ON `w`.`staff_number`=`s`.`number` WHERE  `w`.`is_check` = 1  AND `w`.`state` = 5 ORDER BY `w`.`id` DESC LIMIT 0,20 [ RunTime:0.021850s ]
+---------------------------------------------------------------
+[ 2019-03-27T13:31:51+08:00 ] 127.0.0.1 GET yunchi.cn/index/Work/qualityResult
+[运行时间：0.173827s] [吞吐率：5.75req/s] [内存消耗：3,319.02kb] [文件加载：115]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Work',
+    2 => 'qualityResult',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yunchi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://yunchi.cn/index/Index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=19ec43cf46ddbf485ea319bcdca8871f',
+)
+[ info ] [ PARAM ] array (
+  '/index/Work/qualityResult' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Work->qualityResult[ /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/controller/Work.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/view/work/quality_result.html [ array (
+  0 => 'records',
+  1 => 'page',
+  2 => 'param',
+  3 => 'item_value',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024501s ] mysql:host=101.89.115.24;port=3306;dbname=pension;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_work_log` [ RunTime:0.022953s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yc_work_log` `l` LEFT JOIN `yc_work` `w` ON `l`.`w_id`=`w`.`id` LEFT JOIN `yc_client` `c` ON `c`.`id`=`w`.`client_id` LEFT JOIN `yc_staff_user` `s` ON `s`.`number`=`w`.`staff_number` WHERE  `l`.`type` IN ('6','7') LIMIT 1 [ RunTime:0.049409s ]
+[ sql ] [ SQL ] SELECT `l`.`w_id`,`l`.`type`,l.create_time as quality_time,`l`.`quality_score`,w.type as work_type,`w`.`create_time`,c.name as clientName,s.display_name as staffUser FROM `yc_work_log` `l` LEFT JOIN `yc_work` `w` ON `l`.`w_id`=`w`.`id` LEFT JOIN `yc_client` `c` ON `c`.`id`=`w`.`client_id` LEFT JOIN `yc_staff_user` `s` ON `s`.`number`=`w`.`staff_number` WHERE  `l`.`type` IN ('6','7') ORDER BY `l`.`id` DESC LIMIT 0,20 [ RunTime:0.021637s ]
+[ sql ] [ SQL ] SELECT `create_time` FROM yc_work_log WHERE `type`=5 AND `w_id`=4 ORDER BY `id` DESC LIMIT 1 [ RunTime:0.027054s ]
+---------------------------------------------------------------
+[ 2019-03-27T13:31:53+08:00 ] 127.0.0.1 GET yunchi.cn/index/Work/workDetails?id=4&action=quality
+[运行时间：0.168324s] [吞吐率：5.94req/s] [内存消耗：3,556.80kb] [文件加载：116]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Work',
+    2 => 'workDetails',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yunchi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://yunchi.cn/index/Work/qualityResult',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=19ec43cf46ddbf485ea319bcdca8871f',
+)
+[ info ] [ PARAM ] array (
+  '/index/Work/workDetails' => '',
+  'id' => '4',
+  'action' => 'quality',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Work->workDetails[ /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/controller/Work.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/view/work/work_details.html [ array (
+  0 => 'details',
+  1 => 'client',
+  2 => 'work',
+  3 => 'workLog',
+  4 => 'action',
+  5 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.028542s ] mysql:host=101.89.115.24;port=3306;dbname=pension;charset=utf8
+[ sql ] [ SQL ] SELECT `w`.`id`,`w`.`title`,`w`.`type`,`w`.`client_id`,`w`.`state`,`w`.`plan_state`,`w`.`address`,`w`.`lng`,`w`.`lat`,`w`.`heart`,`w`.`alarm_time`,`w`.`create_time`,`u`.`name` AS `clientName`,`s`.`display_name`,(CASE WHEN `w`.`state`=5 THEN (SELECT CONCAT_WS(';',`call_result`,`remarks`,`create_time`) FROM yc_work_log WHERE `type`=5 AND `w_id`=4 ORDER BY `id` DESC LIMIT 1) ELSE 0 END) AS `work_log`,(CASE WHEN `w`.`type`=4 THEN (SELECT CONCAT_WS(';',`name`,`start_time`,`end_time`) FROM yc_work_plan WHERE `id`=`w`.`plan_id`) ELSE 0 END) AS `work_plan` FROM `yc_work` AS `w` LEFT JOIN `yc_client` AS `u` ON `w`.`client_id`=`u`.`id` LEFT JOIN `yc_staff_user` AS `s` ON `w`.`staff_number`=`s`.`number` WHERE w.`id`=4 [ RunTime:0.022386s ]
+[ sql ] [ SQL ] SELECT c.`id`,c.`name`,c.`id_number`,c.`head`,c.`birthday`,c.`age`,c.`sex`,c.`mobile`,c.`address`,c.`permanent_address`,c.`integral`,g.`name` AS `groupName`,t.`name` AS `tagName` FROM yc_client AS c LEFT JOIN v_client_group AS g ON c.`id`=g.`cid` LEFT JOIN v_client_tag AS t ON c.`id`=t.`cid` WHERE c.`id`=2 [ RunTime:0.016048s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_work` [ RunTime:0.017621s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yc_work` `w` LEFT JOIN `yc_client` `c` ON `w`.`client_id`=`c`.`id` LEFT JOIN `yc_staff_user` `s` ON `w`.`staff_number`=`s`.`number` WHERE  `w`.`client_id` = 2 LIMIT 1 [ RunTime:0.017435s ]
+[ sql ] [ SQL ] SELECT w.id,w.title,w.staff_number,w.plan_id,w.client_id,w.type,w.state,w.create_time,(case when w.plan_id!=0 then (select name from yc_work_plan where id=w.plan_id) else 0 end) as plan_title,(case when w.state=5 then (select concat_ws(";",call_result,create_time) from yc_work_log where w_id=w.id order by id desc limit 1) else 0 end) as work_log,c.name as userName,s.display_name FROM `yc_work` `w` LEFT JOIN `yc_client` `c` ON `w`.`client_id`=`c`.`id` LEFT JOIN `yc_staff_user` `s` ON `w`.`staff_number`=`s`.`number` WHERE  `w`.`client_id` = 2 ORDER BY `w`.`id` DESC LIMIT 0,5 [ RunTime:0.016457s ]
+[ sql ] [ SQL ] SELECT l.`type`,(CASE WHEN `l`.`call_id`!=0 THEN (SELECT CONCAT_WS(',','call_id','caller') FROM yc_call_log WHERE `call_id`=`l`.`call_id`) ELSE 0 END) AS `call_log`,(CASE WHEN `l`.`u_type`=1 THEN (SELECT `name` FROM yc_user WHERE `id`=`l`.`uid`) ELSE (SELECT `display_name` FROM yc_staff_user WHERE `number`=`l`.`uid`) END) AS `user_name`,(CASE WHEN `l`.`staff_number`!=0 THEN (SELECT `display_name` FROM yc_staff_user WHERE `number`=`l`.`staff_number`) ELSE 0 END) AS staff_user,(CASE WHEN `w`.`plan_id`!=0 AND `l`.`type`=1 THEN (SELECT `name` FROM yc_work_plan WHERE `id`=`w`.`plan_id`) ELSE 0 END) AS `plan_name`,`l`.`remarks`,`l`.`call_result`,`l`.`create_time`,`w`.`type` AS `work_type` FROM yc_work_log AS `l` LEFT JOIN yc_work AS `w` ON `l`.`w_id`=`w`.`id` WHERE l.`w_id`=4 ORDER BY `l`.`id` DESC [ RunTime:0.017379s ]
+---------------------------------------------------------------
+[ 2019-03-27T13:31:58+08:00 ] 127.0.0.1 GET yunchi.cn/index/Work/qualityResult
+[运行时间：0.130593s] [吞吐率：7.66req/s] [内存消耗：3,319.60kb] [文件加载：115]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Work',
+    2 => 'qualityResult',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yunchi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://yunchi.cn/index/Index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=19ec43cf46ddbf485ea319bcdca8871f',
+)
+[ info ] [ PARAM ] array (
+  '/index/Work/qualityResult' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Work->qualityResult[ /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/controller/Work.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/view/work/quality_result.html [ array (
+  0 => 'records',
+  1 => 'page',
+  2 => 'param',
+  3 => 'item_value',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.027749s ] mysql:host=101.89.115.24;port=3306;dbname=pension;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_work_log` [ RunTime:0.016626s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yc_work_log` `l` LEFT JOIN `yc_work` `w` ON `l`.`w_id`=`w`.`id` LEFT JOIN `yc_client` `c` ON `c`.`id`=`w`.`client_id` LEFT JOIN `yc_staff_user` `s` ON `s`.`number`=`w`.`staff_number` WHERE  `l`.`type` IN ('6','7') LIMIT 1 [ RunTime:0.019242s ]
+[ sql ] [ SQL ] SELECT `l`.`w_id`,`l`.`type`,l.create_time as quality_time,`l`.`quality_score`,w.type as work_type,`w`.`create_time`,c.name as clientName,s.display_name as staffUser FROM `yc_work_log` `l` LEFT JOIN `yc_work` `w` ON `l`.`w_id`=`w`.`id` LEFT JOIN `yc_client` `c` ON `c`.`id`=`w`.`client_id` LEFT JOIN `yc_staff_user` `s` ON `s`.`number`=`w`.`staff_number` WHERE  `l`.`type` IN ('6','7') ORDER BY `l`.`id` DESC LIMIT 0,20 [ RunTime:0.017428s ]
+[ sql ] [ SQL ] SELECT `create_time` FROM yc_work_log WHERE `type`=5 AND `w_id`=4 ORDER BY `id` DESC LIMIT 1 [ RunTime:0.017737s ]
+---------------------------------------------------------------
+[ 2019-03-27T13:32:00+08:00 ] 127.0.0.1 GET yunchi.cn/index/Work/workDetails?id=4&action=quality
+[运行时间：0.252724s] [吞吐率：3.96req/s] [内存消耗：3,556.80kb] [文件加载：116]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Work',
+    2 => 'workDetails',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yunchi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://yunchi.cn/index/Work/qualityResult',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=19ec43cf46ddbf485ea319bcdca8871f',
+)
+[ info ] [ PARAM ] array (
+  '/index/Work/workDetails' => '',
+  'id' => '4',
+  'action' => 'quality',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Work->workDetails[ /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/controller/Work.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/view/work/work_details.html [ array (
+  0 => 'details',
+  1 => 'client',
+  2 => 'work',
+  3 => 'workLog',
+  4 => 'action',
+  5 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025203s ] mysql:host=101.89.115.24;port=3306;dbname=pension;charset=utf8
+[ sql ] [ SQL ] SELECT `w`.`id`,`w`.`title`,`w`.`type`,`w`.`client_id`,`w`.`state`,`w`.`plan_state`,`w`.`address`,`w`.`lng`,`w`.`lat`,`w`.`heart`,`w`.`alarm_time`,`w`.`create_time`,`u`.`name` AS `clientName`,`s`.`display_name`,(CASE WHEN `w`.`state`=5 THEN (SELECT CONCAT_WS(';',`call_result`,`remarks`,`create_time`) FROM yc_work_log WHERE `type`=5 AND `w_id`=4 ORDER BY `id` DESC LIMIT 1) ELSE 0 END) AS `work_log`,(CASE WHEN `w`.`type`=4 THEN (SELECT CONCAT_WS(';',`name`,`start_time`,`end_time`) FROM yc_work_plan WHERE `id`=`w`.`plan_id`) ELSE 0 END) AS `work_plan` FROM `yc_work` AS `w` LEFT JOIN `yc_client` AS `u` ON `w`.`client_id`=`u`.`id` LEFT JOIN `yc_staff_user` AS `s` ON `w`.`staff_number`=`s`.`number` WHERE w.`id`=4 [ RunTime:0.014832s ]
+[ sql ] [ SQL ] SELECT c.`id`,c.`name`,c.`id_number`,c.`head`,c.`birthday`,c.`age`,c.`sex`,c.`mobile`,c.`address`,c.`permanent_address`,c.`integral`,g.`name` AS `groupName`,t.`name` AS `tagName` FROM yc_client AS c LEFT JOIN v_client_group AS g ON c.`id`=g.`cid` LEFT JOIN v_client_tag AS t ON c.`id`=t.`cid` WHERE c.`id`=2 [ RunTime:0.029227s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_work` [ RunTime:0.043318s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yc_work` `w` LEFT JOIN `yc_client` `c` ON `w`.`client_id`=`c`.`id` LEFT JOIN `yc_staff_user` `s` ON `w`.`staff_number`=`s`.`number` WHERE  `w`.`client_id` = 2 LIMIT 1 [ RunTime:0.022357s ]
+[ sql ] [ SQL ] SELECT w.id,w.title,w.staff_number,w.plan_id,w.client_id,w.type,w.state,w.create_time,(case when w.plan_id!=0 then (select name from yc_work_plan where id=w.plan_id) else 0 end) as plan_title,(case when w.state=5 then (select concat_ws(";",call_result,create_time) from yc_work_log where w_id=w.id order by id desc limit 1) else 0 end) as work_log,c.name as userName,s.display_name FROM `yc_work` `w` LEFT JOIN `yc_client` `c` ON `w`.`client_id`=`c`.`id` LEFT JOIN `yc_staff_user` `s` ON `w`.`staff_number`=`s`.`number` WHERE  `w`.`client_id` = 2 ORDER BY `w`.`id` DESC LIMIT 0,5 [ RunTime:0.027985s ]
+[ sql ] [ SQL ] SELECT l.`type`,(CASE WHEN `l`.`call_id`!=0 THEN (SELECT CONCAT_WS(',','call_id','caller') FROM yc_call_log WHERE `call_id`=`l`.`call_id`) ELSE 0 END) AS `call_log`,(CASE WHEN `l`.`u_type`=1 THEN (SELECT `name` FROM yc_user WHERE `id`=`l`.`uid`) ELSE (SELECT `display_name` FROM yc_staff_user WHERE `number`=`l`.`uid`) END) AS `user_name`,(CASE WHEN `l`.`staff_number`!=0 THEN (SELECT `display_name` FROM yc_staff_user WHERE `number`=`l`.`staff_number`) ELSE 0 END) AS staff_user,(CASE WHEN `w`.`plan_id`!=0 AND `l`.`type`=1 THEN (SELECT `name` FROM yc_work_plan WHERE `id`=`w`.`plan_id`) ELSE 0 END) AS `plan_name`,`l`.`remarks`,`l`.`call_result`,`l`.`create_time`,`w`.`type` AS `work_type` FROM yc_work_log AS `l` LEFT JOIN yc_work AS `w` ON `l`.`w_id`=`w`.`id` WHERE l.`w_id`=4 ORDER BY `l`.`id` DESC [ RunTime:0.057768s ]
+---------------------------------------------------------------
+[ 2019-03-27T13:32:28+08:00 ] 127.0.0.1 GET yunchi.cn/index/Work/qualityResult
+[运行时间：0.144599s] [吞吐率：6.92req/s] [内存消耗：3,319.02kb] [文件加载：115]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Work',
+    2 => 'qualityResult',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yunchi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://yunchi.cn/index/Index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=19ec43cf46ddbf485ea319bcdca8871f',
+)
+[ info ] [ PARAM ] array (
+  '/index/Work/qualityResult' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Work->qualityResult[ /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/controller/Work.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/view/work/quality_result.html [ array (
+  0 => 'records',
+  1 => 'page',
+  2 => 'param',
+  3 => 'item_value',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.027976s ] mysql:host=101.89.115.24;port=3306;dbname=pension;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_work_log` [ RunTime:0.021002s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yc_work_log` `l` LEFT JOIN `yc_work` `w` ON `l`.`w_id`=`w`.`id` LEFT JOIN `yc_client` `c` ON `c`.`id`=`w`.`client_id` LEFT JOIN `yc_staff_user` `s` ON `s`.`number`=`w`.`staff_number` WHERE  `l`.`type` IN ('6','7') LIMIT 1 [ RunTime:0.025921s ]
+[ sql ] [ SQL ] SELECT `l`.`w_id`,`l`.`type`,l.create_time as quality_time,`l`.`quality_score`,w.type as work_type,`w`.`create_time`,c.name as clientName,s.display_name as staffUser FROM `yc_work_log` `l` LEFT JOIN `yc_work` `w` ON `l`.`w_id`=`w`.`id` LEFT JOIN `yc_client` `c` ON `c`.`id`=`w`.`client_id` LEFT JOIN `yc_staff_user` `s` ON `s`.`number`=`w`.`staff_number` WHERE  `l`.`type` IN ('6','7') ORDER BY `l`.`id` DESC LIMIT 0,20 [ RunTime:0.019304s ]
+[ sql ] [ SQL ] SELECT `create_time` FROM yc_work_log WHERE `type`=5 AND `w_id`=4 ORDER BY `id` DESC LIMIT 1 [ RunTime:0.023435s ]
+---------------------------------------------------------------
+[ 2019-03-27T13:33:20+08:00 ] 127.0.0.1 GET yunchi.cn/index/Work/workDetails?id=4&action=quality
+[运行时间：0.219125s] [吞吐率：4.56req/s] [内存消耗：3,557.39kb] [文件加载：116]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Work',
+    2 => 'workDetails',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yunchi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://yunchi.cn/index/Work/qualityResult',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=19ec43cf46ddbf485ea319bcdca8871f',
+)
+[ info ] [ PARAM ] array (
+  '/index/Work/workDetails' => '',
+  'id' => '4',
+  'action' => 'quality',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Work->workDetails[ /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/controller/Work.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/view/work/work_details.html [ array (
+  0 => 'details',
+  1 => 'client',
+  2 => 'work',
+  3 => 'workLog',
+  4 => 'action',
+  5 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.047178s ] mysql:host=101.89.115.24;port=3306;dbname=pension;charset=utf8
+[ sql ] [ SQL ] SELECT `w`.`id`,`w`.`title`,`w`.`type`,`w`.`client_id`,`w`.`state`,`w`.`plan_state`,`w`.`address`,`w`.`lng`,`w`.`lat`,`w`.`heart`,`w`.`alarm_time`,`w`.`create_time`,`u`.`name` AS `clientName`,`s`.`display_name`,(CASE WHEN `w`.`state`=5 THEN (SELECT CONCAT_WS(';',`call_result`,`remarks`,`create_time`) FROM yc_work_log WHERE `type`=5 AND `w_id`=4 ORDER BY `id` DESC LIMIT 1) ELSE 0 END) AS `work_log`,(CASE WHEN `w`.`type`=4 THEN (SELECT CONCAT_WS(';',`name`,`start_time`,`end_time`) FROM yc_work_plan WHERE `id`=`w`.`plan_id`) ELSE 0 END) AS `work_plan` FROM `yc_work` AS `w` LEFT JOIN `yc_client` AS `u` ON `w`.`client_id`=`u`.`id` LEFT JOIN `yc_staff_user` AS `s` ON `w`.`staff_number`=`s`.`number` WHERE w.`id`=4 [ RunTime:0.026159s ]
+[ sql ] [ SQL ] SELECT c.`id`,c.`name`,c.`id_number`,c.`head`,c.`birthday`,c.`age`,c.`sex`,c.`mobile`,c.`address`,c.`permanent_address`,c.`integral`,g.`name` AS `groupName`,t.`name` AS `tagName` FROM yc_client AS c LEFT JOIN v_client_group AS g ON c.`id`=g.`cid` LEFT JOIN v_client_tag AS t ON c.`id`=t.`cid` WHERE c.`id`=2 [ RunTime:0.025693s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_work` [ RunTime:0.020869s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yc_work` `w` LEFT JOIN `yc_client` `c` ON `w`.`client_id`=`c`.`id` LEFT JOIN `yc_staff_user` `s` ON `w`.`staff_number`=`s`.`number` WHERE  `w`.`client_id` = 2 LIMIT 1 [ RunTime:0.018391s ]
+[ sql ] [ SQL ] SELECT w.id,w.title,w.staff_number,w.plan_id,w.client_id,w.type,w.state,w.create_time,(case when w.plan_id!=0 then (select name from yc_work_plan where id=w.plan_id) else 0 end) as plan_title,(case when w.state=5 then (select concat_ws(";",call_result,create_time) from yc_work_log where w_id=w.id order by id desc limit 1) else 0 end) as work_log,c.name as userName,s.display_name FROM `yc_work` `w` LEFT JOIN `yc_client` `c` ON `w`.`client_id`=`c`.`id` LEFT JOIN `yc_staff_user` `s` ON `w`.`staff_number`=`s`.`number` WHERE  `w`.`client_id` = 2 ORDER BY `w`.`id` DESC LIMIT 0,5 [ RunTime:0.025081s ]
+[ sql ] [ SQL ] SELECT l.`type`,(CASE WHEN `l`.`call_id`!=0 THEN (SELECT CONCAT_WS(',','call_id','caller') FROM yc_call_log WHERE `call_id`=`l`.`call_id`) ELSE 0 END) AS `call_log`,(CASE WHEN `l`.`u_type`=1 THEN (SELECT `name` FROM yc_user WHERE `id`=`l`.`uid`) ELSE (SELECT `display_name` FROM yc_staff_user WHERE `number`=`l`.`uid`) END) AS `user_name`,(CASE WHEN `l`.`staff_number`!=0 THEN (SELECT `display_name` FROM yc_staff_user WHERE `number`=`l`.`staff_number`) ELSE 0 END) AS staff_user,(CASE WHEN `w`.`plan_id`!=0 AND `l`.`type`=1 THEN (SELECT `name` FROM yc_work_plan WHERE `id`=`w`.`plan_id`) ELSE 0 END) AS `plan_name`,`l`.`remarks`,`l`.`call_result`,`l`.`create_time`,`w`.`type` AS `work_type` FROM yc_work_log AS `l` LEFT JOIN yc_work AS `w` ON `l`.`w_id`=`w`.`id` WHERE l.`w_id`=4 ORDER BY `l`.`id` DESC [ RunTime:0.017415s ]
+---------------------------------------------------------------
+[ 2019-03-27T13:33:38+08:00 ] 127.0.0.1 POST yunchi.cn/index/Work/qualityWork
+[运行时间：0.122452s] [吞吐率：8.17req/s] [内存消耗：2,628.28kb] [文件加载：107]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Work',
+    2 => 'qualityWork',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yunchi.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => '*/*',
+  'origin' => 'http://yunchi.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://yunchi.cn/index/Work/workDetails?id=4&action=quality',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=19ec43cf46ddbf485ea319bcdca8871f',
+)
+[ info ] [ PARAM ] array (
+  '/index/Work/qualityWork' => '',
+  'work_id' => '4',
+  'score' => '0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Work->qualityWork[ /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/controller/Work.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.034524s ] mysql:host=101.89.115.24;port=3306;dbname=pension;charset=utf8
+[ sql ] [ SQL ] UPDATE yc_work SET `is_check`=2 WHERE `state`=5 AND `is_check`=1 AND `id`=4 [ RunTime:0.024997s ]
+[ sql ] [ SQL ] INSERT INTO yc_work_log (`w_id`,`type`,`uid`,`u_type`,`quality_score`,`create_time`) VALUES (4,7,1,1,0,1553664818) [ RunTime:0.024648s ]
+---------------------------------------------------------------
+[ 2019-03-27T13:33:41+08:00 ] 127.0.0.1 GET yunchi.cn/index/Work/workDetails?id=4&action=quality
+[运行时间：0.166253s] [吞吐率：6.01req/s] [内存消耗：3,558.67kb] [文件加载：116]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Work',
+    2 => 'workDetails',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yunchi.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://yunchi.cn/index/Work/workDetails?id=4&action=quality',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=19ec43cf46ddbf485ea319bcdca8871f',
+)
+[ info ] [ PARAM ] array (
+  '/index/Work/workDetails' => '',
+  'id' => '4',
+  'action' => 'quality',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Work->workDetails[ /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/controller/Work.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/view/work/work_details.html [ array (
+  0 => 'details',
+  1 => 'client',
+  2 => 'work',
+  3 => 'workLog',
+  4 => 'action',
+  5 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023747s ] mysql:host=101.89.115.24;port=3306;dbname=pension;charset=utf8
+[ sql ] [ SQL ] SELECT `w`.`id`,`w`.`title`,`w`.`type`,`w`.`client_id`,`w`.`state`,`w`.`plan_state`,`w`.`address`,`w`.`lng`,`w`.`lat`,`w`.`heart`,`w`.`alarm_time`,`w`.`create_time`,`u`.`name` AS `clientName`,`s`.`display_name`,(CASE WHEN `w`.`state`=5 THEN (SELECT CONCAT_WS(';',`call_result`,`remarks`,`create_time`) FROM yc_work_log WHERE `type`=5 AND `w_id`=4 ORDER BY `id` DESC LIMIT 1) ELSE 0 END) AS `work_log`,(CASE WHEN `w`.`type`=4 THEN (SELECT CONCAT_WS(';',`name`,`start_time`,`end_time`) FROM yc_work_plan WHERE `id`=`w`.`plan_id`) ELSE 0 END) AS `work_plan` FROM `yc_work` AS `w` LEFT JOIN `yc_client` AS `u` ON `w`.`client_id`=`u`.`id` LEFT JOIN `yc_staff_user` AS `s` ON `w`.`staff_number`=`s`.`number` WHERE w.`id`=4 [ RunTime:0.017024s ]
+[ sql ] [ SQL ] SELECT c.`id`,c.`name`,c.`id_number`,c.`head`,c.`birthday`,c.`age`,c.`sex`,c.`mobile`,c.`address`,c.`permanent_address`,c.`integral`,g.`name` AS `groupName`,t.`name` AS `tagName` FROM yc_client AS c LEFT JOIN v_client_group AS g ON c.`id`=g.`cid` LEFT JOIN v_client_tag AS t ON c.`id`=t.`cid` WHERE c.`id`=2 [ RunTime:0.014552s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_work` [ RunTime:0.019177s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yc_work` `w` LEFT JOIN `yc_client` `c` ON `w`.`client_id`=`c`.`id` LEFT JOIN `yc_staff_user` `s` ON `w`.`staff_number`=`s`.`number` WHERE  `w`.`client_id` = 2 LIMIT 1 [ RunTime:0.019122s ]
+[ sql ] [ SQL ] SELECT w.id,w.title,w.staff_number,w.plan_id,w.client_id,w.type,w.state,w.create_time,(case when w.plan_id!=0 then (select name from yc_work_plan where id=w.plan_id) else 0 end) as plan_title,(case when w.state=5 then (select concat_ws(";",call_result,create_time) from yc_work_log where w_id=w.id order by id desc limit 1) else 0 end) as work_log,c.name as userName,s.display_name FROM `yc_work` `w` LEFT JOIN `yc_client` `c` ON `w`.`client_id`=`c`.`id` LEFT JOIN `yc_staff_user` `s` ON `w`.`staff_number`=`s`.`number` WHERE  `w`.`client_id` = 2 ORDER BY `w`.`id` DESC LIMIT 0,5 [ RunTime:0.018305s ]
+[ sql ] [ SQL ] SELECT l.`type`,(CASE WHEN `l`.`call_id`!=0 THEN (SELECT CONCAT_WS(',','call_id','caller') FROM yc_call_log WHERE `call_id`=`l`.`call_id`) ELSE 0 END) AS `call_log`,(CASE WHEN `l`.`u_type`=1 THEN (SELECT `name` FROM yc_user WHERE `id`=`l`.`uid`) ELSE (SELECT `display_name` FROM yc_staff_user WHERE `number`=`l`.`uid`) END) AS `user_name`,(CASE WHEN `l`.`staff_number`!=0 THEN (SELECT `display_name` FROM yc_staff_user WHERE `number`=`l`.`staff_number`) ELSE 0 END) AS staff_user,(CASE WHEN `w`.`plan_id`!=0 AND `l`.`type`=1 THEN (SELECT `name` FROM yc_work_plan WHERE `id`=`w`.`plan_id`) ELSE 0 END) AS `plan_name`,`l`.`remarks`,`l`.`call_result`,`l`.`create_time`,`w`.`type` AS `work_type` FROM yc_work_log AS `l` LEFT JOIN yc_work AS `w` ON `l`.`w_id`=`w`.`id` WHERE l.`w_id`=4 ORDER BY `l`.`id` DESC [ RunTime:0.024326s ]
+---------------------------------------------------------------
+[ 2019-03-27T13:36:19+08:00 ] 127.0.0.1 GET yunchi.cn/index/Work/qualityResult
+[运行时间：0.167706s] [吞吐率：5.96req/s] [内存消耗：3,320.88kb] [文件加载：115]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Work',
+    2 => 'qualityResult',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yunchi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://yunchi.cn/index/Index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=19ec43cf46ddbf485ea319bcdca8871f',
+)
+[ info ] [ PARAM ] array (
+  '/index/Work/qualityResult' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Work->qualityResult[ /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/controller/Work.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/view/work/quality_result.html [ array (
+  0 => 'records',
+  1 => 'page',
+  2 => 'param',
+  3 => 'item_value',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.034231s ] mysql:host=101.89.115.24;port=3306;dbname=pension;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_work_log` [ RunTime:0.022596s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yc_work_log` `l` LEFT JOIN `yc_work` `w` ON `l`.`w_id`=`w`.`id` LEFT JOIN `yc_client` `c` ON `c`.`id`=`w`.`client_id` LEFT JOIN `yc_staff_user` `s` ON `s`.`number`=`w`.`staff_number` WHERE  `l`.`type` IN ('6','7') LIMIT 1 [ RunTime:0.015353s ]
+[ sql ] [ SQL ] SELECT `l`.`w_id`,`l`.`type`,l.create_time as quality_time,`l`.`quality_score`,w.type as work_type,`w`.`create_time`,c.name as clientName,s.display_name as staffUser FROM `yc_work_log` `l` LEFT JOIN `yc_work` `w` ON `l`.`w_id`=`w`.`id` LEFT JOIN `yc_client` `c` ON `c`.`id`=`w`.`client_id` LEFT JOIN `yc_staff_user` `s` ON `s`.`number`=`w`.`staff_number` WHERE  `l`.`type` IN ('6','7') ORDER BY `l`.`id` DESC LIMIT 0,20 [ RunTime:0.021422s ]
+[ sql ] [ SQL ] SELECT `create_time` FROM yc_work_log WHERE `type`=5 AND `w_id`=4 ORDER BY `id` DESC LIMIT 1 [ RunTime:0.021263s ]
+[ sql ] [ SQL ] SELECT `create_time` FROM yc_work_log WHERE `type`=5 AND `w_id`=4 ORDER BY `id` DESC LIMIT 1 [ RunTime:0.026053s ]
+---------------------------------------------------------------
+[ 2019-03-27T13:41:10+08:00 ] 127.0.0.1 GET yunchi.cn/index/Work/workDetails?id=4&action=quality
+[运行时间：0.261858s] [吞吐率：3.82req/s] [内存消耗：3,558.71kb] [文件加载：116]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Work',
+    2 => 'workDetails',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yunchi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://yunchi.cn/index/Work/qualityResult',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=19ec43cf46ddbf485ea319bcdca8871f',
+)
+[ info ] [ PARAM ] array (
+  '/index/Work/workDetails' => '',
+  'id' => '4',
+  'action' => 'quality',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Work->workDetails[ /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/controller/Work.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/view/work/work_details.html [ array (
+  0 => 'details',
+  1 => 'client',
+  2 => 'work',
+  3 => 'workLog',
+  4 => 'action',
+  5 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.046351s ] mysql:host=101.89.115.24;port=3306;dbname=pension;charset=utf8
+[ sql ] [ SQL ] SELECT `w`.`id`,`w`.`title`,`w`.`type`,`w`.`client_id`,`w`.`state`,`w`.`plan_state`,`w`.`address`,`w`.`lng`,`w`.`lat`,`w`.`heart`,`w`.`alarm_time`,`w`.`create_time`,`u`.`name` AS `clientName`,`s`.`display_name`,(CASE WHEN `w`.`state`=5 THEN (SELECT CONCAT_WS(';',`call_result`,`remarks`,`create_time`) FROM yc_work_log WHERE `type`=5 AND `w_id`=4 ORDER BY `id` DESC LIMIT 1) ELSE 0 END) AS `work_log`,(CASE WHEN `w`.`type`=4 THEN (SELECT CONCAT_WS(';',`name`,`start_time`,`end_time`) FROM yc_work_plan WHERE `id`=`w`.`plan_id`) ELSE 0 END) AS `work_plan` FROM `yc_work` AS `w` LEFT JOIN `yc_client` AS `u` ON `w`.`client_id`=`u`.`id` LEFT JOIN `yc_staff_user` AS `s` ON `w`.`staff_number`=`s`.`number` WHERE w.`id`=4 [ RunTime:0.033499s ]
+[ sql ] [ SQL ] SELECT c.`id`,c.`name`,c.`id_number`,c.`head`,c.`birthday`,c.`age`,c.`sex`,c.`mobile`,c.`address`,c.`permanent_address`,c.`integral`,g.`name` AS `groupName`,t.`name` AS `tagName` FROM yc_client AS c LEFT JOIN v_client_group AS g ON c.`id`=g.`cid` LEFT JOIN v_client_tag AS t ON c.`id`=t.`cid` WHERE c.`id`=2 [ RunTime:0.020981s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_work` [ RunTime:0.024313s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yc_work` `w` LEFT JOIN `yc_client` `c` ON `w`.`client_id`=`c`.`id` LEFT JOIN `yc_staff_user` `s` ON `w`.`staff_number`=`s`.`number` WHERE  `w`.`client_id` = 2 LIMIT 1 [ RunTime:0.034495s ]
+[ sql ] [ SQL ] SELECT w.id,w.title,w.staff_number,w.plan_id,w.client_id,w.type,w.state,w.create_time,(case when w.plan_id!=0 then (select name from yc_work_plan where id=w.plan_id) else 0 end) as plan_title,(case when w.state=5 then (select concat_ws(";",call_result,create_time) from yc_work_log where w_id=w.id order by id desc limit 1) else 0 end) as work_log,c.name as userName,s.display_name FROM `yc_work` `w` LEFT JOIN `yc_client` `c` ON `w`.`client_id`=`c`.`id` LEFT JOIN `yc_staff_user` `s` ON `w`.`staff_number`=`s`.`number` WHERE  `w`.`client_id` = 2 ORDER BY `w`.`id` DESC LIMIT 0,5 [ RunTime:0.026607s ]
+[ sql ] [ SQL ] SELECT l.`type`,(CASE WHEN `l`.`call_id`!=0 THEN (SELECT CONCAT_WS(',','call_id','caller') FROM yc_call_log WHERE `call_id`=`l`.`call_id`) ELSE 0 END) AS `call_log`,(CASE WHEN `l`.`u_type`=1 THEN (SELECT `name` FROM yc_user WHERE `id`=`l`.`uid`) ELSE (SELECT `display_name` FROM yc_staff_user WHERE `number`=`l`.`uid`) END) AS `user_name`,(CASE WHEN `l`.`staff_number`!=0 THEN (SELECT `display_name` FROM yc_staff_user WHERE `number`=`l`.`staff_number`) ELSE 0 END) AS staff_user,(CASE WHEN `w`.`plan_id`!=0 AND `l`.`type`=1 THEN (SELECT `name` FROM yc_work_plan WHERE `id`=`w`.`plan_id`) ELSE 0 END) AS `plan_name`,`l`.`remarks`,`l`.`call_result`,`l`.`create_time`,`w`.`type` AS `work_type` FROM yc_work_log AS `l` LEFT JOIN yc_work AS `w` ON `l`.`w_id`=`w`.`id` WHERE l.`w_id`=4 ORDER BY `l`.`id` DESC [ RunTime:0.036651s ]
+---------------------------------------------------------------
+[ 2019-03-27T13:41:43+08:00 ] 127.0.0.1 GET yunchi.cn/index/Index/bigscreen
+[运行时间：0.210103s] [吞吐率：4.76req/s] [内存消耗：3,296.89kb] [文件加载：114]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'bigscreen',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yunchi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://yunchi.cn/index/Index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=19ec43cf46ddbf485ea319bcdca8871f',
+)
+[ info ] [ PARAM ] array (
+  '/index/Index/bigscreen' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bigscreen[ /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/view/index/bigscreen.html [ array (
+  0 => 'watches',
+  1 => 'group',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.028989s ] mysql:host=101.89.115.24;port=3306;dbname=pension;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_device` [ RunTime:0.020783s ]
+[ sql ] [ SQL ] SELECT count(id) as number,group_concat(is_binding) as count FROM `yc_device` [ RunTime:0.030115s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_client_group` [ RunTime:0.029697s ]
+[ sql ] [ SQL ] SELECT a.name,count(b.cid) as value FROM yc_client_group a LEFT JOIN `yc_client_group_map` `b` ON `a`.`id`=`b`.`gid` GROUP BY `a`.`id` [ RunTime:0.068830s ]
+---------------------------------------------------------------
+[ 2019-03-27T13:41:43+08:00 ] 127.0.0.1 GET yunchi.cn/index/Index/leftmonitorsdata
+[运行时间：0.195514s] [吞吐率：5.11req/s] [内存消耗：3,227.81kb] [文件加载：115]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'leftmonitorsdata',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yunchi.cn',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'referer' => 'http://yunchi.cn/index/Index/bigscreen',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=19ec43cf46ddbf485ea319bcdca8871f',
+)
+[ info ] [ PARAM ] array (
+  '/index/Index/leftmonitorsdata' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->leftmonitorsdata[ /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.042172s ] mysql:host=101.89.115.24;port=3306;dbname=pension;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_work` [ RunTime:0.017633s ]
+[ sql ] [ SQL ] SELECT count(id) as number,state FROM `yc_work` WHERE  `state` IN (1,2,3,4,5) GROUP BY `state` [ RunTime:0.016091s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_client` [ RunTime:0.022295s ]
+[ sql ] [ SQL ] SELECT count(id) as number,sex FROM `yc_client` GROUP BY `sex` [ RunTime:0.016507s ]
+[ sql ] [ SQL ] select name,count('id') as value from (select case when age<=59 then '60岁以下' when age>=60 and age<=69 then '60到69岁之间' when age>=70 and age<=79 then '70到79之间' when age>=80 and age<=89 then '80到89之间' when age>=90 then '90岁以上' end as name from yc_client )a group by name [ RunTime:0.016249s ]
+[ sql ] [ SQL ] SELECT from_unixtime(create_time,'%Y-%m-%d') as name,count(id) as value FROM `yc_work` WHERE  `create_time` BETWEEN 1553097600 AND 1553702399 GROUP BY `name` [ RunTime:0.021725s ]
+[ sql ] [ SQL ] SELECT count(id) as number,type FROM `yc_work` GROUP BY `type` [ RunTime:0.017269s ]
+[ error ] [8]未定义变量: number[/Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/model/Main.php:218]
+[ error ] [8]未定义数组下标: 7[/Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/model/Main.php:216]
+[ error ] [8]未定义数组下标: 8[/Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/model/Main.php:216]
+---------------------------------------------------------------
+[ 2019-03-27T13:41:43+08:00 ] 127.0.0.1 POST yunchi.cn/index/Warning/getofteninfo.html
+[运行时间：0.305755s] [吞吐率：3.27req/s] [内存消耗：3,170.82kb] [文件加载：113]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Warning',
+    2 => 'getofteninfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yunchi.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => '*/*',
+  'origin' => 'http://yunchi.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'referer' => 'http://yunchi.cn/index/Index/bigscreen',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=19ec43cf46ddbf485ea319bcdca8871f',
+)
+[ info ] [ PARAM ] array (
+  '/index/Warning/getofteninfo_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Warning->getofteninfo[ /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/controller/Warning.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.036708s ] mysql:host=101.89.115.24;port=3306;dbname=pension;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_work` [ RunTime:0.042943s ]
+[ sql ] [ SQL ] SELECT `a`.`create_time`,`a`.`address`,`a`.`type`,`b`.`name`,`b`.`head` FROM yc_work a LEFT JOIN `yc_client` `b` ON `a`.`client_id`=`b`.`id` ORDER BY `a`.`id` DESC LIMIT 7 [ RunTime:0.019253s ]
+[ error ] [8]未定义数组下标: 1[/Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/model/Work.php:815]
+[ error ] [8]未定义数组下标: 1[/Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/model/Work.php:815]
+[ error ] [8]未定义数组下标: 1[/Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/model/Work.php:815]
+[ error ] [8]未定义数组下标: 1[/Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/model/Work.php:815]
+[ error ] [8]未定义数组下标: 1[/Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/model/Work.php:815]
+[ error ] [8]未定义数组下标: 1[/Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/model/Work.php:815]
+[ error ] [8]未定义数组下标: 1[/Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/model/Work.php:815]
+---------------------------------------------------------------
+[ 2019-03-27T13:41:49+08:00 ] 127.0.0.1 POST yunchi.cn/index/Loclog/bigmap
+[运行时间：6.459962s] [吞吐率：0.15req/s] [内存消耗：3,485.28kb] [文件加载：112]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Loclog',
+    2 => 'bigmap',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yunchi.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => '*/*',
+  'origin' => 'http://yunchi.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'referer' => 'http://yunchi.cn/index/Index/bigscreen',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=19ec43cf46ddbf485ea319bcdca8871f',
+)
+[ info ] [ PARAM ] array (
+  '/index/Loclog/bigmap' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Loclog->bigmap[ /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/controller/Loclog.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: where[/Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/model/Gpslog.php:137]
+[ error ] [8]未定义变量: query[/Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/model/Gpslog.php:152]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025097s ] mysql:host=101.89.115.24;port=3306;dbname=pension;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_gpslog` [ RunTime:0.021585s ]
+[ sql ] [ SQL ] SELECT `a`.`text`,`a`.`address`,`a`.`location_type`,`a`.`addtime`,`a`.`imei` FROM yc_gpslog a ORDER BY `a`.`id` DESC [ RunTime:0.040038s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_device` [ RunTime:0.020433s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.033172s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.031474s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.026466s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.021068s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.020477s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.026057s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.019531s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.015826s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.016783s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.016810s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.022683s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.015958s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.015317s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.030923s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.014694s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.016987s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.017314s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.018480s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.017766s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.017082s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.015768s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.017260s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.016607s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.017858s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.025284s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.021405s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.022897s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.013675s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.018062s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.018957s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.020187s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.017246s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.023280s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.021429s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.016159s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.019642s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.020243s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.024206s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.014912s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.020455s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.018885s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.039416s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.016761s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.025380s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.018630s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.017089s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.024170s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.015211s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.024465s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.023516s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.028374s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.018766s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.016066s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.014478s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.019184s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.024799s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.016798s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.017991s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.016249s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.014496s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.018755s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.018171s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.028423s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.015154s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.020994s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.019925s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.024592s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.018832s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.016715s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.023891s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.018511s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.027089s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.016918s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.025296s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.026791s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.018705s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.015684s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.019998s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.020217s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.015341s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.020258s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.027455s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.018676s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.023813s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.017905s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.022141s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.022295s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.019279s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.017371s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.024472s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.043622s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.017195s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.016961s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.017712s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.016008s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.016395s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.023565s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.025121s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.014001s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.017498s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.036684s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.020542s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.019219s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.021566s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.015428s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.025310s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.017474s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.016006s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.019642s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.031009s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.020703s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.015872s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.018737s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.018441s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.018219s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.034068s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.022948s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.020234s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.021736s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.026657s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.025449s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.015628s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.020298s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.023221s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.016413s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.017414s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.016586s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.022455s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.022976s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.021857s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.019007s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.017363s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.020563s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.018155s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.019404s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.023506s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.020618s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.020709s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.018834s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.025465s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.018408s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.021725s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.019749s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.030634s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.017203s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.022035s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.020667s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.038775s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.021302s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.017124s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.016120s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.021277s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.018601s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.026213s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.024543s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.022733s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.014777s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.024665s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.019960s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.019688s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.030200s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.022574s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.019401s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.026030s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.020138s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.019620s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.032168s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.021793s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.021018s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.022258s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.016382s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.015998s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.014634s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.019618s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.021815s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.021184s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.015184s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.019813s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.029009s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.053959s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.021606s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.016657s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.018528s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.015886s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.030893s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.030251s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.020266s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.016214s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.024464s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.016366s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.018522s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.025361s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.019961s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.027874s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.013777s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.031554s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.019625s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.019169s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.019680s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.041870s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.063110s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.044867s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.020585s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.030376s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.032112s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.023579s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.023306s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.020916s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.014971s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.021550s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.019154s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.029927s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.015701s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.015122s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.020714s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.038346s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.028509s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.016684s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.022785s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.015486s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.029204s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.024728s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.019039s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.027454s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.017560s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.025969s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.022013s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.014742s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.019970s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.019059s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.020104s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.016496s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.015855s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.023930s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.030291s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.031496s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.018771s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.019990s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.023168s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.030101s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.019538s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.016236s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.018049s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.023443s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.026194s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.017052s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.015129s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.019301s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.020581s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.027311s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.020250s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.014668s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.017653s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.024742s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.020495s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.017237s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.020460s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.019021s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.022249s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.014942s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.018726s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.020436s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.023730s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.026456s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.028567s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.018741s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.020683s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.024648s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.019549s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.022819s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.020838s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.020029s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.036571s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.021239s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.015849s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.016720s ]
+[ sql ] [ SQL ] SELECT `c`.`name`,`c`.`head` FROM yc_device d LEFT JOIN `yc_client` `c` ON `d`.`uid`=`c`.`id` WHERE  `imei` = '864891030363766' LIMIT 1 [ RunTime:0.020594s ]
+---------------------------------------------------------------
+[ 2019-03-27T13:41:49+08:00 ] 127.0.0.1 GET yunchi.cn/index/Index/class=%22warn-img%22
+[运行时间：6.168733s] [吞吐率：0.16req/s] [内存消耗：1,945.76kb] [文件加载：102]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'class="warn-img"',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yunchi.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://yunchi.cn/index/Index/bigscreen',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=19ec43cf46ddbf485ea319bcdca8871f',
+)
+[ info ] [ PARAM ] array (
+  '/index/Index/class' => '"warn-img"',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-27T14:06:56+08:00 ] 127.0.0.1 GET yunchi.cn/server/work/index
+[运行时间：0.169020s] [吞吐率：5.92req/s] [内存消耗：3,210.16kb] [文件加载：119]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'server',
+    1 => 'work',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yunchi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://yunchi.cn/server/Index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=19ec43cf46ddbf485ea319bcdca8871f',
+)
+[ info ] [ PARAM ] array (
+  '/server/work/index' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\server\controller\Work->index[ /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/server/controller/Work.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/server/view/work/index.html [ array (
+  0 => 'project',
+  1 => 'work',
+  2 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.038749s ] mysql:host=101.89.115.24;port=3306;dbname=pension;charset=utf8
+[ sql ] [ SQL ] SELECT `id`,`name`,`pid` FROM yc_provider_project WHERE `pid`!= 0 [ RunTime:0.015097s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_provider_work` [ RunTime:0.017814s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yc_provider_work` `w` LEFT JOIN `yc_client` `c` ON `w`.`client`=`c`.`id` LEFT JOIN `yc_provider_staff` `s` ON `w`.`sid`=`s`.`id` LIMIT 1 [ RunTime:0.019738s ]
+[ sql ] [ SQL ] SELECT `w`.`id`,`w`.`site`,`w`.`status`,`w`.`money`,`w`.`title`,`w`.`client`,c.name as cname,s.name as sname,`w`.`sid`,`w`.`state`,`w`.`create_time`,`w`.`end_time` FROM `yc_provider_work` `w` LEFT JOIN `yc_client` `c` ON `w`.`client`=`c`.`id` LEFT JOIN `yc_provider_staff` `s` ON `w`.`sid`=`s`.`id` ORDER BY `w`.`id` DESC LIMIT 0,30 [ RunTime:0.024126s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`pid` FROM yc_provider_project WHERE `pid`!= 0 [ RunTime:0.018818s ]
+[ error ] [8]未定义变量: param[/Applications/XAMPP/xamppfiles/htdocs/pension_project/runtime/temp/ec65c1cfd65105cca92e7305a34f2c6c.php:40]
+[ error ] [8]未定义变量: param[/Applications/XAMPP/xamppfiles/htdocs/pension_project/runtime/temp/ec65c1cfd65105cca92e7305a34f2c6c.php:47]
+[ error ] [8]未定义变量: param[/Applications/XAMPP/xamppfiles/htdocs/pension_project/runtime/temp/ec65c1cfd65105cca92e7305a34f2c6c.php:53]
+[ error ] [8]未定义变量: param[/Applications/XAMPP/xamppfiles/htdocs/pension_project/runtime/temp/ec65c1cfd65105cca92e7305a34f2c6c.php:60]
+[ error ] [8]未定义变量: param[/Applications/XAMPP/xamppfiles/htdocs/pension_project/runtime/temp/ec65c1cfd65105cca92e7305a34f2c6c.php:66]
+[ error ] [8]未定义变量: param[/Applications/XAMPP/xamppfiles/htdocs/pension_project/runtime/temp/ec65c1cfd65105cca92e7305a34f2c6c.php:70]
+---------------------------------------------------------------
+[ 2019-03-27T14:06:57+08:00 ] 127.0.0.1 GET yunchi.cn/server/Work/addWork.html
+[运行时间：0.067011s] [吞吐率：14.92req/s] [内存消耗：2,996.16kb] [文件加载：110]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'server',
+    1 => 'Work',
+    2 => 'addWork',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yunchi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://yunchi.cn/server/work/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=19ec43cf46ddbf485ea319bcdca8871f',
+)
+[ info ] [ PARAM ] array (
+  '/server/Work/addWork_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\server\controller\Work->addWork[ /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/server/controller/Work.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/server/view/work/add_work.html [ array (
+  0 => 'title',
+  1 => 'project',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024918s ] mysql:host=101.89.115.24;port=3306;dbname=pension;charset=utf8
+[ sql ] [ SQL ] SELECT `id`,`name`,`pid` FROM yc_provider_project WHERE `pid`!= 0 [ RunTime:0.016583s ]
+---------------------------------------------------------------
+[ 2019-03-27T15:24:48+08:00 ] 127.0.0.1 GET yunchi.cn/index/Work/qualityResult
+[运行时间：0.192164s] [吞吐率：5.20req/s] [内存消耗：3,321.47kb] [文件加载：115]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Work',
+    2 => 'qualityResult',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yunchi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://yunchi.cn/index/Index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=19ec43cf46ddbf485ea319bcdca8871f',
+)
+[ info ] [ PARAM ] array (
+  '/index/Work/qualityResult' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Work->qualityResult[ /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/controller/Work.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/pension_project/application/index/view/work/quality_result.html [ array (
+  0 => 'records',
+  1 => 'page',
+  2 => 'param',
+  3 => 'item_value',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.037353s ] mysql:host=101.89.115.24;port=3306;dbname=pension;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_work_log` [ RunTime:0.028147s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yc_work_log` `l` LEFT JOIN `yc_work` `w` ON `l`.`w_id`=`w`.`id` LEFT JOIN `yc_client` `c` ON `c`.`id`=`w`.`client_id` LEFT JOIN `yc_staff_user` `s` ON `s`.`number`=`w`.`staff_number` WHERE  `l`.`type` IN ('6','7') LIMIT 1 [ RunTime:0.022226s ]
+[ sql ] [ SQL ] SELECT `l`.`w_id`,`l`.`type`,l.create_time as quality_time,`l`.`quality_score`,w.type as work_type,`w`.`create_time`,c.name as clientName,s.display_name as staffUser FROM `yc_work_log` `l` LEFT JOIN `yc_work` `w` ON `l`.`w_id`=`w`.`id` LEFT JOIN `yc_client` `c` ON `c`.`id`=`w`.`client_id` LEFT JOIN `yc_staff_user` `s` ON `s`.`number`=`w`.`staff_number` WHERE  `l`.`type` IN ('6','7') ORDER BY `l`.`id` DESC LIMIT 0,20 [ RunTime:0.019576s ]
+[ sql ] [ SQL ] SELECT `create_time` FROM yc_work_log WHERE `type`=5 AND `w_id`=4 ORDER BY `id` DESC LIMIT 1 [ RunTime:0.030911s ]
+[ sql ] [ SQL ] SELECT `create_time` FROM yc_work_log WHERE `type`=5 AND `w_id`=4 ORDER BY `id` DESC LIMIT 1 [ RunTime:0.020709s ]

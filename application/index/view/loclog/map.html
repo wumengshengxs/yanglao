@@ -1,0 +1,61 @@
+{include file='public/head'}
+<link rel="stylesheet" type="text/css" href="__PUBLIC__css/map.css">
+<body>
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="ibox float-e-margins">
+        <div class="ibox-content">
+              <div class="ibox-title">
+                <h5>
+                    <div class="btn-group search">
+                        <button class="btn btn-white" type="button"><i class="fa fa-search"></i> 高级搜索</button>
+                        <div class="dropdown-menu">
+                            <form class="form-horizontal">
+                                <div class="form-group" id="signupForm">
+                                    <label class="col-sm-3 control-label">创建时间</label>
+                                    <div class="col-sm-4">
+                                        <input type="text" name="start_create"  class="form-control times" >
+                                    </div>
+                                    <div class="col-sm-1 middle-div">至</div>
+                                    <div class="col-sm-4 f-right">
+                                        <input type="text" name="end_create"   class="form-control times" >
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label">身份证号码</label>
+                                    <div class="col-sm-9">
+                                        <input type="text" name="cardid"  class="form-control" value="{$info.cardid}">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label">姓名</label>
+                                    <div class="col-sm-9">
+                                        <input type="text" name="name"  class="form-control" >
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label">IMEI</label>
+                                    <div class="col-sm-9">
+                                        <input type="text" name="imei"  class="form-control" >
+                                    </div>
+                                </div>
+                                <div class="hr-line-dashed"></div>
+                                <div class="form-group">
+                                    <div class="col-sm-4 col-sm-offset-2">
+                                        <button class="btn btn-primary" type="submit" onclick="search_query()">搜索</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </h5>
+            </div>
+            <input type="hidden" name="map" value='{$data}'>
+            <div class="col-sm-12" id='allmap' style="height: 700px;"></div>
+        </div>
+    </div>
+</div>
+</body>
+{include file='public/foot'/}
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=KW0y9CM8nvQWkWcQ4jIDTOBevgSapQQQ"></script>
+<script type="text/javascript" src="__PUBLIC__js/loc-map.js"></script>
+</html>

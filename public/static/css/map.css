@@ -1,0 +1,6 @@
+/*去除左下角的百度Log*/
+.anchorBL{display:none;}
+#controller{width:100%; border-bottom:3px outset; height:30px; filter:alpha(Opacity=100); -moz-opacity:1; opacity:1; z-index:10000; background-color:lightblue;}
+#container{height:100%}
+/*标注点用户头像*/
+.img-responsive {display: inline-block;height: auto;width:60px;height: 50px;}

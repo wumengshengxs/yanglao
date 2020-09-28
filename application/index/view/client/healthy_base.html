@@ -1,0 +1,136 @@
+{include file='public/head'/}
+<link rel="stylesheet" href="__PUBLIC__css/client.css">
+<body class="gray-bg">
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="ibox float-e-margins">
+        <div class="ibox-title">
+            <h5>
+                <small>服务对象管理&nbsp;>&nbsp;健康档案&nbsp;>&nbsp;基础档案</small>&nbsp;
+                <a href="javascript:history.back(-1);" title="返回上一页"><i class="fa fa-reply"></i></a>
+            </h5>
+        </div>
+        <div class="ibox-content c-healthy-base">
+            <div class="col-sm-12 nav-tabs-client">
+                <div class="col-sm-4">
+                    <img src="{$user.head|default='/public/static/img/head.jpg'}" alt="">&nbsp;&nbsp;
+                    <span>{$user.name}</span>
+                </div>
+                <div class="col-sm-8">
+                    <ul class="nav nav-tabs"></ul>
+                </div>
+            </div>
+            <div class="col-sm-12">
+                <ul class="nav nav-tabs nav-tabs-healthy"></ul>
+            </div>
+            <div class="col-sm-12 m-t">
+                <form class="form-horizontal">
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">身高</label>
+                        <div class="col-sm-6">
+                            <span class="help-block">{$base.height|default=0}厘米</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">体重</label>
+                        <div class="col-sm-6">
+                            <span class="help-block">{$base.weight|default=0}公斤</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">视力情况</label>
+                        <div class="col-sm-6">
+                            <span class="help-block">{$base.vision|default='--'}</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">听力情况</label>
+                        <div class="col-sm-6">
+                            <span class="help-block">{$base.hearing|default='--'}</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">睡眠</label>
+                        <div class="col-sm-6">
+                            <span class="help-block">{$base.sleep_text|default='--'}</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">是否吸烟</label>
+                        <div class="col-sm-6">
+                            <span class="help-block">{$base.smoke_text|default='--'}</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">平均每天吸烟量</label>
+                        <div class="col-sm-6">
+                            <span class="help-block">{$base.smoke_frequency|default='--'}</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">是否饮酒</label>
+                        <div class="col-sm-6">
+                            <span class="help-block">{$base.drink_text|default='--'}</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">锻炼次数</label>
+                        <div class="col-sm-6">
+                            <span class="help-block">{$base.exercise_frequency|default='--'}</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">锻炼时间</label>
+                        <div class="col-sm-6">
+                            <span class="help-block">{$base.exercise_duration_text|default='--'}</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">锻炼方式</label>
+                        <div class="col-sm-6">
+                            <span class="help-block">{$base.exercise_type_text|default='--'}</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">服用保健品说明</label>
+                        <div class="col-sm-6">
+                            <span class="help-block">{$base.healthy_products|default='--'}</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">医疗支付方式</label>
+                        <div class="col-sm-6">
+                            <span class="help-block">{$base.medical_payment_text|default='--'}</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">社交活动</label>
+                        <div class="col-sm-6">
+                            <span class="help-block">{$base.social_activity_text|default='--'}</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">备注</label>
+                        <div class="col-sm-6">
+                            <span class="help-block">{$base.remarks|default='--'}</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label"></label>
+                        <div class="col-sm-6">
+                            <button type="button" class="btn btn-primary active">编辑</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
+</body>
+{include file='public/foot'/}
+<script type="text/javascript" src="__PUBLIC__js/client.js"></script>
+<script type="text/javascript">
+    var $userId = '<?php echo $userId; ?>',
+        $healthyBase = '<?php echo json_encode($base); ?>';
+</script>
+</html>

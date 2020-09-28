@@ -1,0 +1,52 @@
+{include file='public/head'/}
+<body class="gray-bg">
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="ibox float-e-margins">
+        <div class="ibox-content">
+            <div class="ibox-title">
+                <h5>
+                    <button class="btn btn-white btn-sm a-role"><i class="fa fa-plus"></i> 添加角色</button>
+                </h5>
+            </div>
+            <div class="row row-lg">
+                <div class="col-sm-12">
+                    <div class="table-responsive">
+                        <table class="table table-striped table-bordered table-hover">
+                            <thead>
+                            <tr>
+                                <th>序号</th>
+                                <th>角色名称</th>
+                                <th>描述</th>
+                                <th>状态</th>
+                                <th>添加时间</th>
+                                <th>操作</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            {volist name='role' id='r' key='k'}
+                            <tr>
+                                <td>{$k}</td>
+                                <td>{$r.name}</td>
+                                <td>{$r.remarks}</td>
+                                <td>{$r.r_status}</td>
+                                <td>{$r.create_time}</td>
+                                <td>
+                                    <a href="javascript:;" class="e-role" title="编辑"><i class="fa fa-edit"></i></a>&nbsp;&nbsp;
+                                    <a href="javascript:;" class="d-role" title="删除"><i class="fa fa-trash-o"></i></a>
+                                </td>
+                            </tr>
+                            {/volist}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+{include file='public/foot'/}
+<script type="text/javascript" src="__PUBLIC__js/auth.js"></script>
+<script type="text/javascript">
+    var $roleList = '<?php echo json_encode($role); ?>';
+</script>
+</html>

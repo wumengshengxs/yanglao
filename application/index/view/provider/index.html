@@ -1,0 +1,56 @@
+{include file="public/head"/}
+<link rel="stylesheet" type="text/css" href="__PUBLIC__js/plugins/layui/css/layui.css">
+<body class="gray-bg">
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="ibox float-e-margins">
+        <div class="ibox-content">
+            <div class="m-b">
+                <h5>
+                    <a href="javascript:;" class="btn btn-white btn-sm a-provider"><i class="fa fa-plus"></i> 添加服务机构</a>&nbsp;&nbsp;
+                </h5>
+            </div>
+            <div class="row row-lg">
+                <div class="col-sm-12">
+                    <div class="table-responsive">
+                        <table class="table table-striped table-bordered table-hover">
+                            <thead>
+                            <tr>
+                                <th>序号</th>
+                                <th>登录账号</th>
+                                <th>公司名称</th>
+                                <th>服务项目</th>
+                                <th>状态</th>
+                                <th>操作</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            {volist name='provider.data' id='p' key='k'}
+                            <tr>
+                                <td>{$k}</td>
+                                <td>{$p.name}</td>
+                                <td>{$p.company}</td>
+                                <td>{$p.s_name}</td>
+                                <td>{$p.status}</td>
+                                <td>
+                                    <a href="/index/Provider/details?id={$p.id}">详情</a>
+                                    &nbsp;&nbsp;
+                                    <a href="javascript:;" class="e-provider">编辑</a>
+                                </td>
+                            </tr>
+                            {/volist}
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="page">{$page} {$provider.total}条数据，共{$provider.last_page}页</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+{include file='public/foot'/}
+<script type="text/javascript" src="__PUBLIC__js/provider.js"></script>
+<script type="text/javascript">
+    var $search = '<?php echo json_encode($item_value); ?>',
+        $provider = '<?php echo json_encode($provider["data"]); ?>';
+</script>
+</html>
